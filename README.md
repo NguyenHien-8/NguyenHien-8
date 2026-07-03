@@ -1,11 +1,11 @@
 
 ## Introduction
 
-I'm an **Electronic and Communication Engineering student at Can Tho University** with a strong interest in **Linux**, **Embedded Systems**, **AI Agent Development**, and **IoT**.
+I'm an **Electronic and Communication Engineering student at Can Tho University** with a strong interest in **Linux**, **Embedded Systems**, **PCB Design**, **AI Agent Development**, and **IoT**.
 
 My experience includes:
 
-* **PCB design with Altium**
+* **PCB design with Altium and Proteus**
 * Embedded programming on **STM32, ESP32, Raspberry Pi, MSP430, FPGA**
 * Cloud integration using **PostgreSQL/Supabase**
 * Building practical systems by combining **hardware, embedded software, and computer vision**
