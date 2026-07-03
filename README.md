@@ -1,28 +1,76 @@
+<h1 align="center">Hi, I'm [Your Name] 👨‍💻</h1>
 
-## 👨‍💻 Introduction
+<p align="center">
+  <img src="Image/avatar.png" alt="Avatar" width="180" style="border-radius: 50%;" />
+</p>
 
-I'm an **Electronic and Communication Engineering student at Can Tho University** with a strong interest in **Linux**, **Embedded Systems**, **AI Agent Development**, and **IoT**.
-
-My experience includes:
-
-* **PCB design with Altium**
-* Embedded programming on **STM32, ESP32, Raspberry Pi, MSP430, FPGA**
-* Cloud integration using **PostgreSQL/Supabase**
-* Building practical systems by combining **hardware, embedded software, and computer vision**
+<p align="center">
+  <b>Electronic & Communication Engineering Student | Embedded Developer | IoT Builder | Linux Enthusiast</b>
+</p>
 
 ---
 
-## 🧰 Technologies I Work With
+## 🚀 About Me
 
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Altium-1A1A1A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+I'm currently an **Electronic and Communication Engineering student at Can Tho University** with a strong passion for:
+
+* **Linux Operating Systems**
+* **Embedded Systems Development**
+* **AI Agent Development**
+* **Internet of Things (IoT)**
+* **Computer Vision Applications**
+
+I have hands-on experience in building smart hardware systems, including:
+
+* Designing **PCB layouts in Altium**
+* Programming **STM32, ESP32, Raspberry Pi, MSP430, and FPGA**
+* Integrating devices with **PostgreSQL/Supabase cloud databases**
+* Combining **hardware + embedded software + AI vision** into practical solutions
+
+I always enjoy turning ideas into real working systems that are both technically solid and practically useful.
+
+---
+
+## 🧠 What I’m Interested In
+
+* Smart embedded devices
+* Edge AI and AI agents
+* Sensor integration and automation
+* Linux-based development environments
+* IoT systems connected to cloud platforms
+* Computer vision for real-world applications
+
+---
+
+## 🛠 Skills
+
+```text
+PCB Design        ██████████░░░░
+Embedded C/C++    ███████████░░░
+Linux             ██████████░░░░
+Python            █████████░░░░░
+IoT Integration   ██████████░░░░
+Computer Vision   ████████░░░░░░
+```
+
+---
+
+## 📸 Personal Highlight
+
+<p align="center">
+  <img src="Image/embedded-project.png" alt="Embedded Project" width="80%" />
 </p>
 
+---
 
+## 📌 Motto
+
+> Building practical systems by connecting hardware, software, and intelligence.
+
+---
+
+## 🌐 Contact
+
+* GitHub: [yourusername](https://github.com/yourusername)
+* Email: [your-email@example.com](mailto:your-email@example.com)
+* Facebook / LinkedIn: your-link
