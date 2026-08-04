@@ -45,6 +45,14 @@ My experience includes:
       <img src="https://skillicons.dev/icons?i=kotlin" width="48" height="48" alt="Kotlin" />
       <br>Kotlin
     </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=next" width="48" height="48" alt="Next.js" />
+      <br>Next.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      <br>Node.js
+    </td>
   </tr>
   <tr>
     <td align="center" width="96">
@@ -70,6 +78,10 @@ My experience includes:
     <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="48" height="48" />
       <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
+      <br>Vue
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
