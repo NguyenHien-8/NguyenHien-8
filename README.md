@@ -12,7 +12,6 @@ My experience includes:
 
 ---
 
-## Technologies I Work With
 <br/>
 <div style="display: flex; align-items: flex-start; justify-content: center">
 <table align="center">
