@@ -110,7 +110,7 @@ My experience includes:
       <br>GraphQL
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/sqlite-icon.svg" alt="SQLite" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" width="48" height="48" />
       <br>SQLite
     </td>
     <td colspan="3"></td> 
