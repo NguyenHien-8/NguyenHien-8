@@ -87,6 +87,7 @@ My experience includes:
       <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
       <br>TensorFlow
     </td>
+    <td colspan="4"></td> 
   <tr>
     <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="48" height="48" />
@@ -108,6 +109,7 @@ My experience includes:
       <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="48" height="48" />
       <br>GraphQL
     </td>
+    <td colspan="4"></td> 
   </tr>
   <tr>
     <td align="center" width="96">
