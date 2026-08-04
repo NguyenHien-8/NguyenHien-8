@@ -13,7 +13,26 @@ My experience includes:
 ---
 
 ## Technologies I Work With
-
+<br/>
+<div style="display: flex; align-items: flex-start; justify-content: center">
+<table align="center">
+<tr>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=go" width="48" height="48" alt="Go" />
+    <br>Go
+  </td>
+    <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust" />
+    <br>Rust
+  </td>
+  <td align="center" width="96"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="48" height="48" /><br>Python</td>
+  <td align="center" width="96"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="48" height="48" /><br>TypeScript</td>
+  <td align="center" width="96"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="48" height="48" /><br>JavaScript</td>
+  <td align="center" width="96"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="48" height="48" /><br>React Native</td>
+  <td align="center" width="96">
+    <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
+    <br>TensorFlow
+  </td>
 <p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Altium-1A1A1A?style=for-the-badge" />
@@ -29,5 +48,5 @@ My experience includes:
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
-
+<br/>
 
