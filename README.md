@@ -86,7 +86,8 @@ My experience includes:
       <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
       <br>TensorFlow
     </td>
-    <td colspan="4"></td> 
+    <td colspan="1"></td> 
+  </tr>
   <tr>
     <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="48" height="48" />
@@ -108,14 +109,18 @@ My experience includes:
       <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="48" height="48" />
       <br>GraphQL
     </td>
-    <td colspan="4"></td> 
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/sqlite-icon.svg" alt="SQLite" width="48" height="48" />
+      <br>SQLite
+    </td>
+    <td colspan="3"></td> 
   </tr>
   <tr>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
       <br>Git
     </td>
-        <td align="center" width="96">
+    <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
       <br>Linux
     </td>
@@ -135,4 +140,3 @@ My experience includes:
   </tr>
 </table>
 </div>
-
