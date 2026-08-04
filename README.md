@@ -109,7 +109,7 @@ My experience includes:
       <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="48" height="48" />
       <br>GraphQL
     </td>
-    <td align="center" width="96">
+    <td align="center" width="95">
       <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" width="48" height="48" />
       <br>SQLite
     </td>
