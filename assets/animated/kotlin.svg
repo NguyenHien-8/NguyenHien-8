@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Kotlin — semantic animated logo</title>
-<desc id="desc">A diagonal color sweep represents Kotlin's multiplatform design. The underlying brand artwork stays unchanged.</desc>
+<title id="title">Kotlin: interactive technology animation</title>
+<desc id="desc">Two controlled gradient streams cross to suggest Kotlin's modern language flow. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#242938"/>
 <path d="M218 218H38V38H218L128 128L218 218Z" fill="url(#paint0_linear_7_120)"/>
@@ -12,9 +18,7 @@
 </linearGradient>
 </defs>
 </svg>
-<defs><linearGradient id="kotlin-sheen"><stop stop-color="#FE9A56" stop-opacity="0"/><stop offset=".5" stop-color="#FFC96B" stop-opacity=".42"/><stop offset="1" stop-color="#A98BFF" stop-opacity="0"/></linearGradient><clipPath id="kotlin-edge"><rect x="5" y="5" width="54" height="54" rx="12"/></clipPath></defs>
-<g clip-path="url(#kotlin-edge)"><path d="M-26-9L-9-26 75 58 58 75Z" fill="url(#kotlin-sheen)">
- <animateTransform attributeName="transform" type="translate" values="-78 0;100 0" dur="4.4s" repeatCount="indefinite"/>
-</path></g>
-<path d="M13 52L24 41" fill="none" stroke="#FFA978" stroke-opacity=".8" stroke-width="2" stroke-linecap="round" stroke-dasharray="15" ><animate attributeName="stroke-dashoffset" values="15;0;15" dur="3.2s" repeatCount="indefinite"/></path>
+<g class="tech-effect" aria-hidden="true">
+<defs><linearGradient id="fx-kotlin-flow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F58545"/><stop offset=".48" stop-color="#E86ACF"/><stop offset="1" stop-color="#9A7CFF"/></linearGradient></defs><g fill="none" stroke="url(#fx-kotlin-flow)" stroke-width="2.1" stroke-linecap="round"><path d="M7 52Q20 39 32 52T57 52" stroke-dasharray="9 80"><animate attributeName="stroke-dashoffset" values="0;-80" dur="4.8s" repeatCount="indefinite"/></path><path d="M8 45Q20 59 33 45T56 45" stroke-dasharray="9 80"><animate attributeName="stroke-dashoffset" values="-40;-120" dur="5.5s" repeatCount="indefinite"/></path></g>
+</g>
 </svg>

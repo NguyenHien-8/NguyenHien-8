@@ -1,8 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">C++ — semantic animated logo</title>
-<desc id="desc">Incrementing plus signs show C++'s extensions. The underlying brand artwork stays unchanged.</desc>
+<title id="title">C++: interactive technology animation</title>
+<desc id="desc">Directed execution traces and a fast instruction pulse illustrate high performance. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#00599C" rx="60"/><path fill="#fff" d="M110.759 210.517C65.1254 210.517 28 173.392 28 127.759C28 82.1254 65.1254 45 110.759 45C140.204 45 167.667 60.8458 182.427 86.3533L146.611 107.079C139.224 94.3111 125.485 86.3793 110.759 86.3793C87.9416 86.3793 69.3793 104.942 69.3793 127.759C69.3793 150.575 87.9416 169.138 110.759 169.138C125.486 169.138 139.225 161.206 146.613 148.436L182.429 169.161C167.669 194.671 140.206 210.517 110.759 210.517Z"/><path fill="#fff" d="M193.517 123.161H184.321V113.965H175.127V123.161H165.931V132.356H175.127V141.552H184.321V132.356H193.517V123.161Z"/><path fill="#fff" d="M228 123.161H218.804V113.965H209.61V123.161H200.414V132.356H209.61V141.552H218.804V132.356H228V123.161Z"/></svg>
-<g stroke="#D9F4FF" stroke-width="1.7" stroke-linecap="round"><g transform="translate(43 12)"><path d="M-2 0H2M0-2V2"/><animate attributeName="opacity" values=".15;1;.15" begin="0.00s" dur="1.56s" repeatCount="indefinite"/></g><g transform="translate(48 10)"><path d="M-2 0H2M0-2V2"/><animate attributeName="opacity" values=".15;1;.15" begin="-0.52s" dur="1.56s" repeatCount="indefinite"/></g><g transform="translate(53 8)"><path d="M-2 0H2M0-2V2"/><animate attributeName="opacity" values=".15;1;.15" begin="-1.04s" dur="1.56s" repeatCount="indefinite"/></g></g>
-<path d="M12 52H51" stroke="#46C5FF" stroke-opacity=".36" stroke-width="1.4"/>
-<rect x="12" y="50.5" width="7" height="3" rx="1.5" fill="#D5FAFF"><animate attributeName="x" values="12;43;12" dur="3.6s" keyTimes="0;.84;1" repeatCount="indefinite"/></rect>
+<g class="tech-effect" aria-hidden="true">
+<g fill="none" stroke="#A8E6FF" stroke-width="1.1" stroke-linecap="round"><path d="M7 11H56"/><path d="M9 16H52" opacity=".62"/><path d="M11 21H48" opacity=".4"/></g><circle r="1.45" fill="#E7FBFF"><animateMotion path="M7 11H56" dur="1.65s" begin="0s" repeatCount="indefinite" calcMode="paced"/></circle><circle r="1.45" fill="#9CE9FF"><animateMotion path="M9 16H52" dur="2.05s" begin="-.55s" repeatCount="indefinite" calcMode="paced"/></circle><circle r="1.45" fill="#56CCFF"><animateMotion path="M11 21H48" dur="2.45s" begin="-1.15s" repeatCount="indefinite" calcMode="paced"/></circle><path d="M10 55H54" stroke="#C4F7FF" stroke-width="1.2" stroke-dasharray="7 11"><animate attributeName="stroke-dashoffset" values="0;-54" dur="2.4s" repeatCount="indefinite"/></path>
+</g>
 </svg>

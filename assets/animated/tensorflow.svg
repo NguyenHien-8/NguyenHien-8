@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">TensorFlow — semantic animated logo</title>
-<desc id="desc">Tiny tensors travel down a branching computation graph. Original brand artwork retained.</desc>
+<title id="title">TensorFlow: interactive technology animation</title>
+<desc id="desc">Signals pass forward through three neural-network layers with weighted connections. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#242938"/>
 <path d="M124.228 229L90.623 208.89V90.31L40 120.459L40.123 75.545L124.228 26V229ZM131.784 26V229L165.393 208.89V151.781L190.763 166.895L190.612 127.833L165.393 112.988V90.31L216 120.459L215.878 75.545L131.784 26Z" fill="#FF6F00"/>
 </svg>
-<g fill="none" stroke="#FFB36A" stroke-width="1.2" stroke-opacity=".52"><path d="M32 11V19L49 30V48"/><path d="M32 19L16 30V48"/></g>
-<circle r="2.2" fill="#FFF2C5"><animateMotion path="M32 11V19L49 30V48" dur="3.6s" repeatCount="indefinite"/></circle>
-<circle r="2.2" fill="#FFBE76"><animateMotion path="M32 11V19L16 30V48" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/></circle>
-<circle cx="32" cy="11" r="2.1" fill="#FFB467"><animate attributeName="opacity" values=".2;.85;.2" dur="2.6s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="49" cy="48" r="2.1" fill="#FFB467"><animate attributeName="opacity" values=".2;.85;.2" dur="2.6s" begin="-0.50s" repeatCount="indefinite"/></circle><circle cx="16" cy="48" r="2.1" fill="#FFB467"><animate attributeName="opacity" values=".2;.85;.2" dur="2.6s" begin="-1.00s" repeatCount="indefinite"/></circle>
+<g class="tech-effect" aria-hidden="true">
+<g fill="none" stroke="#FFE2AE" stroke-opacity=".52" stroke-width="1"><path d="M13 45L26 43"/><path d="M13 45L26 52"/><path d="M13 54L26 43"/><path d="M13 54L26 52"/><path d="M26 43L41 48"/><path d="M26 52L41 48"/><path d="M41 48L54 48"/></g><g fill="#FFE6B5"><circle cx="13" cy="45" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="0s" repeatCount="indefinite"/></circle><circle cx="13" cy="54" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-0.62s" repeatCount="indefinite"/></circle><circle cx="26" cy="43" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-1.24s" repeatCount="indefinite"/></circle><circle cx="26" cy="52" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-1.8599999999999999s" repeatCount="indefinite"/></circle><circle cx="41" cy="48" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-2.48s" repeatCount="indefinite"/></circle><circle cx="54" cy="48" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-3.1s" repeatCount="indefinite"/></circle></g><circle r="1.7" fill="#FFFFFF"><animateMotion path="M13 45L26 43L41 48L54 48" dur="5.4s" begin="0s" repeatCount="indefinite" calcMode="paced"/></circle>
+</g>
 </svg>

@@ -1,9 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Vue — semantic animated logo</title>
-<desc id="desc">Nested chevrons descend like Vue's progressive rendering layers. Original brand artwork retained.</desc>
+<title id="title">Vue: interactive technology animation</title>
+<desc id="desc">A reactive source change propagates through computed state to the bound view. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#242938" rx="60"/><path fill="#41B883" d="M182 50H218L128 205.25L38 50H73.55H106.85L128 86L148.7 50H182Z"/><path fill="#41B883" d="M38 50L128 205.25L218 50H182L128 143.15L73.55 50H38Z"/><path fill="#fff" d="M73.55 50L128 143.6L182 50H148.7L128 86L106.85 50H73.55Z"/></svg>
-<g fill="none" stroke="#9DF9D6" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round">
-<path d="M18 42L32 55L46 42" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;40" dur="3.9s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.75;.12" dur="3.9s" begin="0.0s" repeatCount="indefinite"/></path><path d="M22 47L32 56L42 47" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;40" dur="3.9s" begin="-0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.75;.12" dur="3.9s" begin="-0.7s" repeatCount="indefinite"/></path>
+<g class="tech-effect" aria-hidden="true">
+<g fill="none" stroke="#ADFFD3" stroke-width="1.3" stroke-linecap="round"><path d="M13 12L31 23L51 12" opacity=".58"/><path d="M31 23V32" opacity=".58"/></g><g fill="#D3FFE9"><circle cx="13" cy="12" r="2.6"><animate attributeName="opacity" values=".16;.96;.16" dur="5s" begin="0s" repeatCount="indefinite"/></circle><circle cx="31" cy="23" r="2"><animate attributeName="opacity" values=".16;.96;.16" dur="5s" begin="-0.85s" repeatCount="indefinite"/></circle><circle cx="51" cy="12" r="2"><animate attributeName="opacity" values=".16;.96;.16" dur="5s" begin="-1.7s" repeatCount="indefinite"/></circle><circle cx="31" cy="32" r="2"><animate attributeName="opacity" values=".16;.96;.16" dur="5s" begin="-2.55s" repeatCount="indefinite"/></circle></g><path d="M10 51H29" stroke="#ACFFD2" stroke-width="1.3" stroke-dasharray="3 5"><animate attributeName="stroke-dashoffset" values="0;-24" dur="5s" repeatCount="indefinite"/></path>
 </g>
-<circle cx="32" cy="9" r="2" fill="#54E4B7"><animate attributeName="cy" values="8;14;8" dur="2.4s" repeatCount="indefinite"/></circle>
 </svg>

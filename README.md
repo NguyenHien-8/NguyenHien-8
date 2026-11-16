@@ -14,7 +14,7 @@ My experience includes:
 
 ### Technologies &amp; Tools
 
-<p align="center"><sub>28 unique function-inspired animations</sub></p>
+<p align="center"><sub>28 authentic logos · 28 distinct function-inspired SVG animations</sub></p>
 
 <br/>
 <div style="display: flex; align-items: flex-start; justify-content: center">
@@ -144,6 +144,8 @@ My experience includes:
   </tr>
 </table>
 
-<p align="center"><sub><a href="./assets/animated/README.md">Explore the meaning behind each animation</a></sub></p>
+<p align="center"><sub><a href="./assets/animated/README.md">Explore the animation design</a> · <a href="./assets/animated/preview.html">Interactive gallery source (run locally)</a></sub></p>
+
+<p align="center"><sub>GitHub README images display subtle ambient SVG motion; direct hover/active animation is available in the standalone interactive gallery.</sub></p>
 
 </div>

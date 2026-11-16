@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">CSS — semantic animated logo</title>
-<desc id="desc">Cascading style layers arrive in staggered order. Original brand artwork retained.</desc>
+<title id="title">CSS: interactive technology animation</title>
+<desc id="desc">Style rules cascade through layered UI boxes and a gradient shifts within the safe margin. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#0277BD"/>
 <path d="M53.7527 102.651L56.6155 134.593H128.096V102.651H53.7527Z" fill="#EBEBEB"/>
@@ -8,8 +14,7 @@
 <path d="M128.095 218.841V185.608L127.955 185.645L92.3813 176.04L90.1072 150.564H72.821H58.0425L62.5175 200.718L127.948 218.882L128.095 218.841Z" fill="#EBEBEB"/>
 <path d="M167.318 134.593L163.61 176.019L127.985 185.635V218.866L193.468 200.718L193.948 195.321L201.454 111.229L202.233 102.651L208 38H127.985V69.9423H172.994L170.088 102.651H127.985V134.593H167.318Z" fill="white"/>
 </svg>
-<g stroke="#A4E6FF" stroke-width="2" stroke-linecap="round">
-<path d="M12 47H45" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;0;40" keyTimes="0;.36;.68;1" dur="4.4s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.92;.92;.12" keyTimes="0;.36;.68;1" dur="4.4s" begin="0.00s" repeatCount="indefinite"/></path><path d="M15 51H42" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;0;40" keyTimes="0;.36;.68;1" dur="4.4s" begin="-0.52s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.92;.92;.12" keyTimes="0;.36;.68;1" dur="4.4s" begin="-0.52s" repeatCount="indefinite"/></path><path d="M18 55H39" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;0;40" keyTimes="0;.36;.68;1" dur="4.4s" begin="-1.04s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.92;.92;.12" keyTimes="0;.36;.68;1" dur="4.4s" begin="-1.04s" repeatCount="indefinite"/></path>
+<g class="tech-effect" aria-hidden="true">
+<defs><linearGradient id="fx-css-fill"><stop stop-color="#7ACBFF"/><stop offset="1" stop-color="#AF8AFF"/></linearGradient></defs><g fill="none" stroke="#C7EBFF" stroke-width="1.25"><rect x="43" y="8" width="11" height="9" rx="1.6" opacity=".45"/><rect x="39" y="12" width="11" height="9" rx="1.6"><animate attributeName="opacity" values=".14;.96;.14" dur="4.8s" begin="0s" repeatCount="indefinite"/></rect><rect x="35" y="16" width="11" height="9" rx="1.6"><animate attributeName="opacity" values=".14;.96;.14" dur="4.8s" begin="-1.6s" repeatCount="indefinite"/></rect></g><rect x="12" y="53" width="40" height="3.8" rx="1.9" fill="url(#fx-css-fill)" opacity=".8"><animate attributeName="width" values="13;40;25;13" dur="4.8s" repeatCount="indefinite"/></rect>
 </g>
-<circle cx="50" cy="13" r="2" fill="#B6EDFF"><animate attributeName="cy" values="12;21;12" dur="2.2s" repeatCount="indefinite"/></circle>
 </svg>

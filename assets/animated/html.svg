@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">HTML — semantic animated logo</title>
-<desc id="desc">Opening and closing tags trace themselves at the edges of the markup badge. Original brand artwork retained.</desc>
+<title id="title">HTML: interactive technology animation</title>
+<desc id="desc">An HTML document is rendered top-to-bottom, one structural row at a time. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#E14E1D" rx="60"/><path fill="#fff" d="M48 38L56.6098 134.593H167.32L163.605 176.023L127.959 185.661L92.38 176.037L90.0012 149.435H57.9389L62.5236 200.716L127.951 218.888L193.461 200.716L202.244 102.655H85.8241L82.901 69.9448H205.041H205.139L208 38H48Z"/><path fill="#EBEBEB" d="M128 38H48L56.6098 134.593H128V102.655H85.8241L82.901 69.9448H128V38Z"/><path fill="#EBEBEB" d="M128 185.647L127.959 185.661L92.38 176.037L90.0012 149.435H57.9388L62.5236 200.716L127.951 218.888L128 218.874V185.647Z"/></svg>
-<g fill="none" stroke="#FFE0D3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-<path d="M13 20L8 26 13 32" stroke-dasharray="18"><animate attributeName="stroke-dashoffset" values="18;0;18" dur="3.1s" repeatCount="indefinite"/></path>
-<path d="M51 20L56 26 51 32" stroke-dasharray="18"><animate attributeName="stroke-dashoffset" values="18;0;18" dur="3.1s" begin="-1.55s" repeatCount="indefinite"/></path>
+<g class="tech-effect" aria-hidden="true">
+<g fill="none" stroke="#FFE2D3" stroke-linecap="round" stroke-width="1.6"><path d="M12 44h29" stroke-dasharray="29" stroke-dashoffset="29"><animate attributeName="stroke-dashoffset" values="29;0;0;29" keyTimes="0;.37;.77;1" dur="5.6s" begin="0s" repeatCount="indefinite"/>/><path d="M12 48h39" stroke-dasharray="39" stroke-dashoffset="39"><animate attributeName="stroke-dashoffset" values="39;0;0;39" keyTimes="0;.37;.77;1" dur="5.6s" begin="-.9s" repeatCount="indefinite"/>/><path d="M12 52h34" stroke-dasharray="34" stroke-dashoffset="34"><animate attributeName="stroke-dashoffset" values="34;0;0;34" keyTimes="0;.37;.77;1" dur="5.6s" begin="-1.8s" repeatCount="indefinite"/>/><path d="M12 56h23" stroke-dasharray="23" stroke-dashoffset="23"><animate attributeName="stroke-dashoffset" values="23;0;0;23" keyTimes="0;.37;.77;1" dur="5.6s" begin="-2.7s" repeatCount="indefinite"/>/></g><path d="M8 42v16" stroke="#FFD4B8" stroke-opacity=".65" stroke-width="1.2"/>
 </g>
-<path d="M21 52h22" stroke="#FF986D" stroke-width="1.7" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" values="0;-24" dur="3.1s" repeatCount="indefinite"/></path>
 </svg>
