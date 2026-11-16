@@ -1,26 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">HTML — animated original logo</title>
-<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
-<defs>
-  <radialGradient id="aura"><stop stop-color="#FC6949" stop-opacity=".34"/><stop offset="1" stop-color="#FC6949" stop-opacity="0"/></radialGradient>
-  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
-</defs>
-<circle cx="32" cy="32" r="31" fill="url(#aura)">
-  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-3.12s" repeatCount="indefinite"/>
-</circle>
-<g>
-  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-3.12s" repeatCount="indefinite"/>
-  <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#E14E1D" rx="60"/><path fill="#fff" d="M48 38L56.6098 134.593H167.32L163.605 176.023L127.959 185.661L92.38 176.037L90.0012 149.435H57.9389L62.5236 200.716L127.951 218.888L193.461 200.716L202.244 102.655H85.8241L82.901 69.9448H205.041H205.139L208 38H48Z"/><path fill="#EBEBEB" d="M128 38H48L56.6098 134.593H128V102.655H85.8241L82.901 69.9448H128V38Z"/><path fill="#EBEBEB" d="M128 185.647L127.959 185.661L92.38 176.037L90.0012 149.435H57.9388L62.5236 200.716L127.951 218.888L128 218.874V185.647Z"/></svg>
-
-  <g clip-path="url(#trim)">
-    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
-      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-3.12s" repeatCount="indefinite"/>
-    </path>
-  </g>
+<title id="title">HTML — semantic animated logo</title>
+<desc id="desc">Opening and closing tags trace themselves at the edges of the markup badge. Original brand artwork retained.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#E14E1D" rx="60"/><path fill="#fff" d="M48 38L56.6098 134.593H167.32L163.605 176.023L127.959 185.661L92.38 176.037L90.0012 149.435H57.9389L62.5236 200.716L127.951 218.888L193.461 200.716L202.244 102.655H85.8241L82.901 69.9448H205.041H205.139L208 38H48Z"/><path fill="#EBEBEB" d="M128 38H48L56.6098 134.593H128V102.655H85.8241L82.901 69.9448H128V38Z"/><path fill="#EBEBEB" d="M128 185.647L127.959 185.661L92.38 176.037L90.0012 149.435H57.9388L62.5236 200.716L127.951 218.888L128 218.874V185.647Z"/></svg>
+<g fill="none" stroke="#FFE0D3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M13 20L8 26 13 32" stroke-dasharray="18"><animate attributeName="stroke-dashoffset" values="18;0;18" dur="3.1s" repeatCount="indefinite"/></path>
+<path d="M51 20L56 26 51 32" stroke-dasharray="18"><animate attributeName="stroke-dashoffset" values="18;0;18" dur="3.1s" begin="-1.55s" repeatCount="indefinite"/></path>
 </g>
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-3.12s" repeatCount="indefinite"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#FC6949" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
-  <circle cx="62" cy="32" r="1.6" fill="#FC6949"/>
-</g>
+<path d="M21 52h22" stroke="#FF986D" stroke-width="1.7" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" values="0;-24" dur="3.1s" repeatCount="indefinite"/></path>
 </svg>

@@ -1,33 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">CSS — animated original logo</title>
-<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
-<defs>
-  <radialGradient id="aura"><stop stop-color="#4AB8FD" stop-opacity=".34"/><stop offset="1" stop-color="#4AB8FD" stop-opacity="0"/></radialGradient>
-  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
-</defs>
-<circle cx="32" cy="32" r="31" fill="url(#aura)">
-  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-3.38s" repeatCount="indefinite"/>
-</circle>
-<g>
-  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-3.38s" repeatCount="indefinite"/>
-  <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">CSS — semantic animated logo</title>
+<desc id="desc">Cascading style layers arrive in staggered order. Original brand artwork retained.</desc>
+<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#0277BD"/>
 <path d="M53.7527 102.651L56.6155 134.593H128.096V102.651H53.7527Z" fill="#EBEBEB"/>
 <path d="M128.095 38H127.985H48L50.9036 69.9423H128.095V38Z" fill="#EBEBEB"/>
 <path d="M128.095 218.841V185.608L127.955 185.645L92.3813 176.04L90.1072 150.564H72.821H58.0425L62.5175 200.718L127.948 218.882L128.095 218.841Z" fill="#EBEBEB"/>
 <path d="M167.318 134.593L163.61 176.019L127.985 185.635V218.866L193.468 200.718L193.948 195.321L201.454 111.229L202.233 102.651L208 38H127.985V69.9423H172.994L170.088 102.651H127.985V134.593H167.318Z" fill="white"/>
 </svg>
-
-
-  <g clip-path="url(#trim)">
-    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
-      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-3.38s" repeatCount="indefinite"/>
-    </path>
-  </g>
+<g stroke="#A4E6FF" stroke-width="2" stroke-linecap="round">
+<path d="M12 47H45" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;0;40" keyTimes="0;.36;.68;1" dur="4.4s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.92;.92;.12" keyTimes="0;.36;.68;1" dur="4.4s" begin="0.00s" repeatCount="indefinite"/></path><path d="M15 51H42" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;0;40" keyTimes="0;.36;.68;1" dur="4.4s" begin="-0.52s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.92;.92;.12" keyTimes="0;.36;.68;1" dur="4.4s" begin="-0.52s" repeatCount="indefinite"/></path><path d="M18 55H39" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;0;40" keyTimes="0;.36;.68;1" dur="4.4s" begin="-1.04s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.92;.92;.12" keyTimes="0;.36;.68;1" dur="4.4s" begin="-1.04s" repeatCount="indefinite"/></path>
 </g>
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-3.38s" repeatCount="indefinite"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#4AB8FD" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
-  <circle cx="62" cy="32" r="1.6" fill="#4AB8FD"/>
-</g>
+<circle cx="50" cy="13" r="2" fill="#B6EDFF"><animate attributeName="cy" values="12;21;12" dur="2.2s" repeatCount="indefinite"/></circle>
 </svg>
