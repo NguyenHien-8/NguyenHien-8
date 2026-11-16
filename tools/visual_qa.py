@@ -110,6 +110,22 @@ def main():
             changed.append(tech) if hashlib.sha256(frame1).digest()!=hashlib.sha256(frame2).digest() else None
         results['checks']['ambient_motion']=changed
         assert len(changed)>=7,f'Ambient motion not seen in enough priority assets: {changed}'
+        # GitHub README uses <img> rather than <object>. Verify that native
+        # SVG animation still advances inside an ordinary image element.
+        page.evaluate("""() => {
+          const img=document.createElement('img');img.id='qa-readme-image';
+          img.src='./react.svg';img.width=48;img.height=48;
+          Object.assign(img.style,{position:'fixed',right:'12px',top:'12px',background:'#101a29',zIndex:'99999'});
+          document.body.appendChild(img);
+        }""")
+        img=page.locator('#qa-readme-image')
+        img.wait_for(state='visible')
+        first_img=img.screenshot()
+        page.wait_for_timeout(1900)
+        second_img=img.screenshot()
+        assert hashlib.sha256(first_img).digest()!=hashlib.sha256(second_img).digest(), 'README-style <img> did not animate'
+        results['checks']['readme_img_ambient']='PASS (animated at 48 px without hover)'
+        page.evaluate("document.querySelector('#qa-readme-image').remove()")
         page.screenshot(path=str(OUT/'gallery-64.png'),full_page=True)
         context.close()
         # Reduced motion: overlays disappear entirely and authentic brand remains.
