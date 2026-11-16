@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Kotlin: interactive technology animation</title>
-<desc id="desc">Two controlled gradient streams cross to suggest Kotlin's modern language flow. Official logo artwork is preserved without changes.</desc>
-<style>
-.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
-:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
-:root:active > .tech-effect{opacity:1}
-@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
-</style>
-<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Kotlin — technical motion showcase</title>
+<desc id="desc">Coroutine flow suspends then resumes across a gradient transition. Authentic logo paths, shapes, and brand colors are preserved.</desc>
+<style><![CDATA[
+.tech-effect{opacity:.78;pointer-events:none;transition:opacity .36s ease}
+.tech-effect .hover-detail{opacity:0;transition:opacity .36s ease}
+:root:hover>.tech-effect,:root:focus>.tech-effect,:root.is-interactive>.tech-effect{opacity:1}
+:root:hover .hover-detail,:root:focus .hover-detail,:root.is-interactive .hover-detail{opacity:.92}
+:root:active>.tech-effect,:root.is-active>.tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none!important;transition:none}}
+]]></style>
+<g class="brand-art" transform="translate(9 0) scale(.72)"><svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#242938"/>
 <path d="M218 218H38V38H218L128 128L218 218Z" fill="url(#paint0_linear_7_120)"/>
 <defs>
@@ -17,8 +19,6 @@
 <stop offset="1" stop-color="#7F52FF"/>
 </linearGradient>
 </defs>
-</svg>
-<g class="tech-effect" aria-hidden="true">
-<defs><linearGradient id="fx-kotlin-flow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F58545"/><stop offset=".48" stop-color="#E86ACF"/><stop offset="1" stop-color="#9A7CFF"/></linearGradient></defs><g fill="none" stroke="url(#fx-kotlin-flow)" stroke-width="2.1" stroke-linecap="round"><path d="M7 52Q20 39 32 52T57 52" stroke-dasharray="9 80"><animate attributeName="stroke-dashoffset" values="0;-80" dur="4.8s" repeatCount="indefinite"/></path><path d="M8 45Q20 59 33 45T56 45" stroke-dasharray="9 80"><animate attributeName="stroke-dashoffset" values="-40;-120" dur="5.5s" repeatCount="indefinite"/></path></g>
-</g>
+</svg></g>
+<g class="tech-effect" aria-hidden="true"><rect x="3" y="3" width="58" height="19" rx="3.1" fill="#071320" fill-opacity=".90" stroke="#D0A4FF" stroke-opacity=".74" stroke-width=".85"/><defs><linearGradient id="kor-flow"><stop stop-color="#FE8C5A"/><stop offset=".5" stop-color="#E16BE6"/><stop offset="1" stop-color="#8B75FF"/></linearGradient></defs><path d="M7 11Q23 5 34 14T56 11" fill="none" stroke="url(#kor-flow)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /><path d="M7 17Q23 23 34 12T56 17" fill="none" stroke="#F0C0FF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6"/><rect x="27" y="7" width="10" height="13" rx="1.4" fill="#2C2147" stroke="#F3D2FF" stroke-width="1.1" /><text x="28.5" y="15" fill="#E8DAFF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="6.2" font-weight="600" >II</text><circle r="2" fill="#FFFFFF"><animateMotion path="M7 11Q23 5 34 14T56 11" dur="5.6s" begin="0s" calcMode="paced" repeatCount="indefinite"/></circle><g class="hover-detail"><text x="46" y="9" fill="#F5DCFF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="4.2" font-weight="600" >resume</text></g></g>
 </svg>

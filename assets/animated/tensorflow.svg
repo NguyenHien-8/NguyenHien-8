@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">TensorFlow: interactive technology animation</title>
-<desc id="desc">Signals pass forward through three neural-network layers with weighted connections. Official logo artwork is preserved without changes.</desc>
-<style>
-.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
-:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
-:root:active > .tech-effect{opacity:1}
-@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
-</style>
-<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">TensorFlow — technical motion showcase</title>
+<desc id="desc">A weighted neural net processes inputs across three inference layers. Authentic logo paths, shapes, and brand colors are preserved.</desc>
+<style><![CDATA[
+.tech-effect{opacity:.78;pointer-events:none;transition:opacity .36s ease}
+.tech-effect .hover-detail{opacity:0;transition:opacity .36s ease}
+:root:hover>.tech-effect,:root:focus>.tech-effect,:root.is-interactive>.tech-effect{opacity:1}
+:root:hover .hover-detail,:root:focus .hover-detail,:root.is-interactive .hover-detail{opacity:.92}
+:root:active>.tech-effect,:root.is-active>.tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none!important;transition:none}}
+]]></style>
+<g class="brand-art" transform="translate(0 8) scale(.72)"><svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#242938"/>
 <path d="M124.228 229L90.623 208.89V90.31L40 120.459L40.123 75.545L124.228 26V229ZM131.784 26V229L165.393 208.89V151.781L190.763 166.895L190.612 127.833L165.393 112.988V90.31L216 120.459L215.878 75.545L131.784 26Z" fill="#FF6F00"/>
-</svg>
-<g class="tech-effect" aria-hidden="true">
-<g fill="none" stroke="#FFE2AE" stroke-opacity=".52" stroke-width="1"><path d="M13 45L26 43"/><path d="M13 45L26 52"/><path d="M13 54L26 43"/><path d="M13 54L26 52"/><path d="M26 43L41 48"/><path d="M26 52L41 48"/><path d="M41 48L54 48"/></g><g fill="#FFE6B5"><circle cx="13" cy="45" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="0s" repeatCount="indefinite"/></circle><circle cx="13" cy="54" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-0.62s" repeatCount="indefinite"/></circle><circle cx="26" cy="43" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-1.24s" repeatCount="indefinite"/></circle><circle cx="26" cy="52" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-1.8599999999999999s" repeatCount="indefinite"/></circle><circle cx="41" cy="48" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-2.48s" repeatCount="indefinite"/></circle><circle cx="54" cy="48" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="5.4s" begin="-3.1s" repeatCount="indefinite"/></circle></g><circle r="1.7" fill="#FFFFFF"><animateMotion path="M13 45L26 43L41 48L54 48" dur="5.4s" begin="0s" repeatCount="indefinite" calcMode="paced"/></circle>
-</g>
+</svg></g>
+<g class="tech-effect" aria-hidden="true"><rect x="34" y="7" width="28" height="52" rx="3.1" fill="#071320" fill-opacity=".90" stroke="#FFD9A1" stroke-opacity=".74" stroke-width=".85"/><path d="M39 19L47 15" fill="none" stroke="#D6AB67" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".62"/><path d="M39 19L47 26" fill="none" stroke="#D6AB67" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".62"/><path d="M39 35L47 15" fill="none" stroke="#D6AB67" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".62"/><path d="M39 35L47 26" fill="none" stroke="#D6AB67" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".62"/><path d="M47 15L56 22" fill="none" stroke="#D6AB67" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".62"/><path d="M47 26L56 22" fill="none" stroke="#D6AB67" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".62"/><circle cx="39" cy="19" r="2.2" fill="#FFE4B7" stroke="#704925" stroke-width=".7"/><circle cx="39" cy="35" r="2.2" fill="#FFE4B7" stroke="#704925" stroke-width=".7"/><circle cx="47" cy="15" r="2.2" fill="#FFE4B7" stroke="#704925" stroke-width=".7"/><circle cx="47" cy="26" r="2.2" fill="#FFE4B7" stroke="#704925" stroke-width=".7"/><circle cx="56" cy="22" r="2.2" fill="#FFE4B7" stroke="#704925" stroke-width=".7"/><circle cx="39" cy="19" r="3.5" fill="#FFBE73" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" dur="4.7s" begin="-0.0s" keyTimes="0;.24;.44;.82;1" repeatCount="indefinite"/></circle><circle cx="47" cy="15" r="3.5" fill="#FFBE73" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" dur="4.7s" begin="-0.65s" keyTimes="0;.24;.44;.82;1" repeatCount="indefinite"/></circle><circle cx="56" cy="22" r="3.5" fill="#FFBE73" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" dur="4.7s" begin="-1.3s" keyTimes="0;.24;.44;.82;1" repeatCount="indefinite"/></circle><text x="40" y="49" fill="#FFE0AA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="5.2" font-weight="600" >INFER</text><rect x="40" y="53" width="18" height="1.7" rx=".85" fill="#FFD28F"/><g class="hover-detail"><text x="37" y="58" fill="#FFE5C5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="4.3" font-weight="600" >CLASS</text></g></g>
 </svg>

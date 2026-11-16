@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">SQLite: interactive technology animation</title>
-<desc id="desc">An embedded database chip writes a record and reads it back without an external server. Official logo artwork is preserved without changes.</desc>
-<style>
-.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
-:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
-:root:active > .tech-effect{opacity:1}
-@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
-</style>
-<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">SQLite — technical motion showcase</title>
+<desc id="desc">An embedded database writes then reads a local flash-memory region. Authentic logo paths, shapes, and brand colors are preserved.</desc>
+<style><![CDATA[
+.tech-effect{opacity:.78;pointer-events:none;transition:opacity .36s ease}
+.tech-effect .hover-detail{opacity:0;transition:opacity .36s ease}
+:root:hover>.tech-effect,:root:focus>.tech-effect,:root.is-interactive>.tech-effect{opacity:1}
+:root:hover .hover-detail,:root:focus .hover-detail,:root.is-interactive .hover-detail{opacity:.92}
+:root:active>.tech-effect,:root.is-active>.tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none!important;transition:none}}
+]]></style>
+<g class="brand-art" transform="translate(17 8) scale(.72)"><svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_307_145)">
 <path d="M60 0C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H168.46C166.681 250.757 165.288 242.454 164.504 232.977C163.829 224.825 163.605 215.806 163.979 207.107C163.878 205.821 163.817 204.985 163.817 204.985C163.817 204.985 161.943 192.375 159.246 182.016C158.052 177.418 156.693 173.26 155.266 170.85C154.531 169.607 155.346 164.499 157.397 156.934C158.597 159.005 163.66 167.866 164.677 170.722C165.822 173.95 166.062 174.875 166.062 174.875C166.062 174.875 163.285 160.603 158.729 152.275C159.728 148.908 160.921 145.187 162.271 141.209C163.849 143.976 167.436 150.33 168.732 153.341C168.852 153.62 168.96 153.882 169.039 154.098C169.223 154.62 169.378 155.063 169.517 155.469C170.248 157.587 170.426 158.261 170.426 158.261C170.426 158.261 170.155 156.875 169.651 154.737C169.438 153.834 169.173 152.772 168.878 151.641C167.73 147.232 165.986 141.46 163.753 136.937C169.485 107.143 187.934 68.1305 207.81 47.0689C209.523 45.2554 211.244 43.5577 212.968 42.0275C224.587 31.7274 236.36 28.2483 246.083 36.9095C253.117 43.1773 255.995 51.8346 256 61.8004V60C256 26.8629 229.137 0 196 0H60Z" fill="#D9D9D9"/>
 <path d="M60 0C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H168.46C166.681 250.757 165.288 242.454 164.504 232.977C163.829 224.825 163.605 215.806 163.979 207.107C163.878 205.821 163.817 204.985 163.817 204.985C163.817 204.985 161.943 192.375 159.246 182.016C158.052 177.418 156.693 173.26 155.266 170.85C154.531 169.607 155.346 164.499 157.397 156.934C158.597 159.005 163.66 167.866 164.677 170.722C165.822 173.95 166.062 174.875 166.062 174.875C166.062 174.875 163.285 160.603 158.729 152.275C159.728 148.908 160.921 145.187 162.271 141.209C163.849 143.976 167.436 150.33 168.732 153.341C168.852 153.62 168.96 153.882 169.039 154.098C169.223 154.62 169.378 155.063 169.517 155.469C170.248 157.587 170.426 158.261 170.426 158.261C170.426 158.261 170.155 156.875 169.651 154.737C169.438 153.834 169.173 152.772 168.878 151.641C167.73 147.232 165.986 141.46 163.753 136.937C169.485 107.143 187.934 68.1305 207.81 47.0689C209.523 45.2554 211.244 43.5577 212.968 42.0275C224.587 31.7274 236.36 28.2483 246.083 36.9095C253.117 43.1773 255.995 51.8346 256 61.8004V60C256 26.8629 229.137 0 196 0H60Z" fill="url(#paint0_linear_307_145)"/>
@@ -24,8 +26,6 @@
 <rect width="256" height="256" rx="60" fill="white"/>
 </clipPath>
 </defs>
-</svg>
-<g class="tech-effect" aria-hidden="true">
-<rect x="21" y="40" width="22" height="19" rx="2.3" fill="#BDE8FF" fill-opacity=".12" stroke="#BDE8FF" stroke-width="1.2"/><g stroke="#D4F2FF" stroke-width="1" opacity=".75"><path d="M24 44h16M24 48h16M24 52h16"/></g><path d="M6 49H20l-3-3m3 3-3 3M44 55H58l-3-3m3 3-3 3" fill="none" stroke="#D3F4FF" stroke-width="1.25" stroke-linejoin="round"/><rect x="7" y="47.6" width="4" height="2.8" rx=".7" fill="#F0FDFF"><animate attributeName="x" values="7;17;24;24;7" keyTimes="0;.25;.5;.75;1" dur="5.8s" repeatCount="indefinite"/></rect><rect x="45" y="53.5" width="4" height="2.8" rx=".7" fill="#D8E9FF"><animate attributeName="x" values="45;45;55;45" keyTimes="0;.4;.7;1" dur="5.8s" repeatCount="indefinite"/></rect>
-</g>
+</svg></g>
+<g class="tech-effect" aria-hidden="true"><rect x="2" y="7" width="29" height="51" rx="3.1" fill="#071320" fill-opacity=".90" stroke="#BDE8FF" stroke-opacity=".74" stroke-width=".85"/><rect x="7" y="16" width="19" height="29" rx="1.5" fill="#1B4E76" stroke="#D1EAFF" stroke-width="1.1" /><rect x="10.0" y="20.0" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="10.0" y="25.2" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="10.0" y="30.4" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="10.0" y="35.6" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="14.4" y="20.0" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="14.4" y="25.2" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="14.4" y="30.4" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="14.4" y="35.6" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="18.8" y="20.0" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="18.8" y="25.2" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="18.8" y="30.4" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><rect x="18.8" y="35.6" width="3.5" height="3.7" rx="0.4" fill="#265C80" stroke="#B8DFFD" stroke-width="1.1" /><path d="M4 49H28" fill="none" stroke="#DEF7FF" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" /><text x="5" y="56" fill="#D6EFFF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="5.4" font-weight="600" >R / W</text><rect x="10" y="20" width="3.5" height="3.7" rx=".4" fill="#FAF0C0"><animate attributeName="x" values="10;14.4;18.8;10" dur="5.8s" begin="0s" keyTimes="0;.34;.68;1" repeatCount="indefinite"/></rect><g class="hover-detail"><text x="6" y="12" fill="#D9F4FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="4.8" font-weight="600" >LOCAL</text></g></g>
 </svg>

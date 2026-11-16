@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Postman: interactive technology animation</title>
-<desc id="desc">A distinct HTTP request travels outward, followed by its response and a completion acknowledgement. Official logo artwork is preserved without changes.</desc>
-<style>
-.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
-:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
-:root:active > .tech-effect{opacity:1}
-@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
-</style>
-<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Postman — technical motion showcase</title>
+<desc id="desc">Two-panel HTTP testing console with GET, request, response and 200 status. Authentic logo paths, shapes, and brand colors are preserved.</desc>
+<style><![CDATA[
+.tech-effect{opacity:.78;pointer-events:none;transition:opacity .36s ease}
+.tech-effect .hover-detail{opacity:0;transition:opacity .36s ease}
+:root:hover>.tech-effect,:root:focus>.tech-effect,:root.is-interactive>.tech-effect{opacity:1}
+:root:hover .hover-detail,:root:focus .hover-detail,:root.is-interactive .hover-detail{opacity:.92}
+:root:active>.tech-effect,:root.is-active>.tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none!important;transition:none}}
+]]></style>
+<g class="brand-art" transform="translate(9 16) scale(.72)"><svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#FF6C37"/>
 <path d="M169.061 88.6123L118.521 139.153L104.268 124.901C153.971 75.1986 158.882 79.5101 169.061 88.6123Z" fill="#EEEEEE"/>
 <path d="M118.521 140.35C118.161 140.35 117.922 140.231 117.682 139.991L103.31 125.739C102.831 125.26 102.831 124.542 103.31 124.063C153.851 73.5211 159.12 78.3118 169.78 87.8932C170.02 88.1328 170.139 88.3724 170.139 88.7317C170.139 89.0911 170.02 89.3306 169.78 89.5694L119.239 139.991C119.12 140.231 118.76 140.35 118.521 140.35ZM105.945 124.901L118.521 137.476L167.265 88.7317C158.403 80.8266 152.414 78.4316 105.945 124.901Z" fill="#FF6C37"/>
@@ -29,8 +31,6 @@
 <path d="M122.832 143.584L109.658 146.459C108.7 146.699 107.741 146.1 107.502 145.142C107.382 144.543 107.502 143.944 107.981 143.465L115.286 136.159L122.832 143.584Z" fill="#EEEEEE"/>
 <path d="M109.418 147.657C107.741 147.657 106.424 146.34 106.424 144.663C106.424 143.825 106.783 143.106 107.262 142.508L114.568 135.202C115.047 134.722 115.766 134.722 116.245 135.202L123.79 142.747C124.149 143.106 124.269 143.465 124.149 143.945C124.029 144.304 123.67 144.663 123.192 144.783L110.017 147.657C109.778 147.657 109.538 147.657 109.418 147.657ZM115.406 137.717L108.939 144.184C108.7 144.424 108.7 144.663 108.819 144.903C108.939 145.142 109.179 145.262 109.538 145.262L120.556 142.866L115.406 137.717Z" fill="#FF6C37"/>
 <path d="M196.248 72.4434C196.009 71.7254 195.17 71.3661 194.451 71.6057C193.733 71.8444 193.374 72.6829 193.614 73.4017C193.614 73.5215 193.733 73.6412 193.733 73.761C194.451 75.1985 194.213 76.9945 193.254 78.3121C192.775 78.9111 192.895 79.7496 193.374 80.2287C193.973 80.7071 194.811 80.5881 195.29 79.9892C197.087 77.7132 197.446 74.8391 196.248 72.4434Z" fill="#FF6C37"/>
-</svg>
-<g class="tech-effect" aria-hidden="true">
-<g fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12H56l-4-3m4 3-4 3" stroke="#FFD8B4" opacity=".78"/><path d="M56 20H8l4-3m-4 3 4 3" stroke="#C9EAFF" opacity=".78"/></g><circle r="1.7" fill="#FFE3C6"><animateMotion path="M8 12H56" dur="4.4s" begin="0s" repeatCount="indefinite" calcMode="paced"/></circle><circle r="1.7" fill="#D7F4FF"><animateMotion path="M56 20H8" dur="4.4s" begin="-2.2s" repeatCount="indefinite" calcMode="paced"/></circle><path d="M47 48l4 4 6-8" fill="none" stroke="#C7FFE3" stroke-width="1.8" stroke-dasharray="19" stroke-dashoffset="19"><animate attributeName="stroke-dashoffset" values="19;19;0;0;19" keyTimes="0;.6;.8;.9;1" dur="4.4s" repeatCount="indefinite"/></path>
-</g>
+</svg></g>
+<g class="tech-effect" aria-hidden="true"><rect x="2" y="37" width="60" height="26" rx="3.1" fill="#071320" fill-opacity=".90" stroke="#FFBD93" stroke-opacity=".74" stroke-width=".85"/><rect x="5" y="42" width="23" height="17" rx="1.7" fill="#39221B" stroke="#FFD0AF" stroke-width="1.1" /><rect x="36" y="42" width="23" height="17" rx="1.7" fill="#302620" stroke="#FFD0AF" stroke-width="1.1" /><rect x="7" y="44.7" width="12.21" height="7.8" rx="2" fill="#E36E35" stroke="#FFFFFF" stroke-opacity=".5" stroke-width=".65"/><text x="9" y="50" fill="#FFFFFF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="4.8" font-weight="700" >GET</text><path d="M6 53H26M6 56H20" fill="none" stroke="#DDA98F" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" /><text x="38" y="47" fill="#F3DECA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="5.5" font-weight="600" >RESP</text><path d="M39 53H55M39 56H49" fill="none" stroke="#FFD9B6" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" /><rect x="47" y="50" width="10" height="7" rx="1.3" fill="#14583F" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" dur="6.6s" begin="-.75s" keyTimes="0;.24;.44;.82;1" repeatCount="indefinite"/></rect><text x="48" y="55.5" font-family="monospace" font-size="5.6" font-weight="700" fill="#B2FFE0" opacity="0">200<animate attributeName="opacity" values="0;0;1;1;0" dur="6.6s" begin="-.75s" keyTimes="0;.24;.44;.82;1" repeatCount="indefinite"/></text><path d="M28 47H35l-2-2m2 2-2 2" fill="none" stroke="#FFD1BA" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" /><path d="M35 56H28l2-2m-2 2 2 2" fill="none" stroke="#9FCFFF" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" /><rect x="29" y="45.9" width="4" height="2.2" rx="1" fill="#FFB174"><animate attributeName="x" values="29;33;33;29" dur="6.6s" begin="0s" keyTimes="0;.28;.54;1" repeatCount="indefinite"/></rect><g class="hover-detail"><text x="7" y="61" fill="#FFDDC8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="4.4" font-weight="600" >TEST</text></g></g>
 </svg>

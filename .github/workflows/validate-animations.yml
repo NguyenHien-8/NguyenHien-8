@@ -2,14 +2,14 @@ name: Validate technology logo animations
 on:
   push:
     paths:
-      - "assets/animated/**"
-      - "tools/validate_animations.py"
-      - ".github/workflows/validate-animations.yml"
+      - 'assets/animated/**'
+      - 'tools/**'
+      - '.github/workflows/validate-animations.yml'
   pull_request:
     paths:
-      - "assets/animated/**"
-      - "tools/validate_animations.py"
-      - ".github/workflows/validate-animations.yml"
+      - 'assets/animated/**'
+      - 'tools/**'
+      - '.github/workflows/validate-animations.yml'
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -17,5 +17,24 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Validate all SVG animations
+      - name: Validate all original brand hashes, SVG and motion accessibility
         run: python3 tools/validate_animations.py
+  visual-qa:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install test dependencies
+        run: python3 -m pip install --disable-pip-version-check --quiet --break-system-packages playwright pillow
+      - name: Render all 28 animations, inspect priority sizes, hover/focus and reduced motion
+        env:
+          QA_OUTPUT: /tmp/technology-visual-qa
+        run: python3 tools/visual_qa.py
+      - name: Upload screenshots and QA results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: premium-motion-visual-qa
+          path: /tmp/technology-visual-qa/
+          retention-days: 7

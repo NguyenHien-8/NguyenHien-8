@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">CSS: interactive technology animation</title>
-<desc id="desc">Style rules cascade through layered UI boxes and a gradient shifts within the safe margin. Official logo artwork is preserved without changes.</desc>
-<style>
-.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
-:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
-:root:active > .tech-effect{opacity:1}
-@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
-</style>
-<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">CSS — technical motion showcase</title>
+<desc id="desc">Cascade resolves overlapping rules into a computed visual style. Authentic logo paths, shapes, and brand colors are preserved.</desc>
+<style><![CDATA[
+.tech-effect{opacity:.78;pointer-events:none;transition:opacity .36s ease}
+.tech-effect .hover-detail{opacity:0;transition:opacity .36s ease}
+:root:hover>.tech-effect,:root:focus>.tech-effect,:root.is-interactive>.tech-effect{opacity:1}
+:root:hover .hover-detail,:root:focus .hover-detail,:root.is-interactive .hover-detail{opacity:.92}
+:root:active>.tech-effect,:root.is-active>.tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none!important;transition:none}}
+]]></style>
+<g class="brand-art" transform="translate(0 8) scale(.72)"><svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#0277BD"/>
 <path d="M53.7527 102.651L56.6155 134.593H128.096V102.651H53.7527Z" fill="#EBEBEB"/>
 <path d="M128.095 38H127.985H48L50.9036 69.9423H128.095V38Z" fill="#EBEBEB"/>
 <path d="M128.095 218.841V185.608L127.955 185.645L92.3813 176.04L90.1072 150.564H72.821H58.0425L62.5175 200.718L127.948 218.882L128.095 218.841Z" fill="#EBEBEB"/>
 <path d="M167.318 134.593L163.61 176.019L127.985 185.635V218.866L193.468 200.718L193.948 195.321L201.454 111.229L202.233 102.651L208 38H127.985V69.9423H172.994L170.088 102.651H127.985V134.593H167.318Z" fill="white"/>
-</svg>
-<g class="tech-effect" aria-hidden="true">
-<defs><linearGradient id="fx-css-fill"><stop stop-color="#7ACBFF"/><stop offset="1" stop-color="#AF8AFF"/></linearGradient></defs><g fill="none" stroke="#C7EBFF" stroke-width="1.25"><rect x="43" y="8" width="11" height="9" rx="1.6" opacity=".45"/><rect x="39" y="12" width="11" height="9" rx="1.6"><animate attributeName="opacity" values=".14;.96;.14" dur="4.8s" begin="0s" repeatCount="indefinite"/></rect><rect x="35" y="16" width="11" height="9" rx="1.6"><animate attributeName="opacity" values=".14;.96;.14" dur="4.8s" begin="-1.6s" repeatCount="indefinite"/></rect></g><rect x="12" y="53" width="40" height="3.8" rx="1.9" fill="url(#fx-css-fill)" opacity=".8"><animate attributeName="width" values="13;40;25;13" dur="4.8s" repeatCount="indefinite"/></rect>
-</g>
+</svg></g>
+<g class="tech-effect" aria-hidden="true"><rect x="36" y="7" width="26" height="49" rx="3.1" fill="#071320" fill-opacity=".90" stroke="#B5E1FF" stroke-opacity=".74" stroke-width=".85"/><rect x="38" y="14" width="17.0" height="18" rx="2" fill="#9ACDFF" fill-opacity=".17" stroke="#9ACDFF" stroke-width="1.05"/><rect x="41" y="19" width="15.5" height="18" rx="2" fill="#70B6F8" fill-opacity=".17" stroke="#70B6F8" stroke-width="1.05"/><rect x="44" y="24" width="14.0" height="18" rx="2" fill="#A999FF" fill-opacity=".17" stroke="#A999FF" stroke-width="1.05"/><text x="40" y="12" fill="#D5EBFF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="5.5" font-weight="600" >CSS</text><rect x="41" y="44" width="17" height="8" rx="1.5" fill="#29496C" stroke="#D2ECFF" stroke-width="1.1" /><rect x="44" y="46" width="11" height="4" rx="1" fill="#A7D2FF"><animate attributeName="fill" values="#9FCFFF;#AA91FF;#7EE2E7;#9FCFFF" dur="5.6s" begin="0s" repeatCount="indefinite"/></rect><path d="M45 38H56" fill="none" stroke="#A8E3FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" /><g class="hover-detail"><text x="40" y="59" fill="#D4EEFF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="4.4" font-weight="600" >APPLY</text></g></g>
 </svg>

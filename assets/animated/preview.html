@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
-<title>Technology Motion Lab · 28 Semantic Logo Animations</title>
+<title>Technology Motion Lab · Premium SVG Engineering Showcase</title>
 <style>
 :root{font:15px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e9f0ff;background:#0a101c;font-synthesis:none}
 *{box-sizing:border-box}
@@ -21,12 +21,12 @@ input:focus-visible,select:focus-visible{outline:2px solid #8dcaff;outline-offse
 .count{margin-left:auto;align-self:center;color:#90a5c0;font-size:13px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(186px,1fr));gap:15px}
 .card{position:relative;isolation:isolate;overflow:hidden;min-height:239px;padding:19px 19px 17px;border:1px solid #273650;border-radius:20px;background:linear-gradient(158deg,#18263a 0%,#101928 88%);transition:border-color .25s ease,background-color .25s ease,transform .25s ease;display:flex;flex-direction:column;align-items:flex-start}
-.card:hover,.card:focus-within{border-color:#639bcb;transform:translateY(-3px);background:#15243a}
+.card:hover,.card:focus-within,.card:focus-visible{border-color:#639bcb;transform:translateY(-3px);background:#15243a}
 .card:before{content:"";position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,#9bdcff70,transparent);opacity:0;transition:opacity .25s}
 .card:hover:before,.card:focus-within:before{opacity:1}
-.icon-wrap{margin-bottom:17px;width:78px;height:78px;display:grid;place-items:center;border-radius:16px;background:#090f1d7a;border:1px solid #314663;overflow:visible}
-object{width:70px;height:70px;display:block;outline-offset:4px}
-object:focus-visible{outline:2px solid #b8dcff;border-radius:14px}
+.icon-wrap{margin-bottom:17px;width:82px;height:82px;display:grid;place-items:center;border-radius:16px;background:#090f1d7a;border:1px solid #314663;overflow:visible}
+object{width:var(--logo-size,64px);height:var(--logo-size,64px);display:block;outline-offset:4px;pointer-events:none}
+.card:focus-visible{outline:2px solid #b8dcff;outline-offset:3px}
 .name{font-size:17px;line-height:1.2;letter-spacing:-.02em;font-weight:700;margin:0 0 6px}
 .details{color:#a4b6cb;font-size:12px;line-height:1.4;flex:1;margin:0 0 17px}
 .category{color:#a7d5ff;font:600 10px ui-monospace,monospace;letter-spacing:.07em;text-transform:uppercase}
@@ -40,31 +40,56 @@ code{font-family:ui-monospace,monospace;background:#17263a;color:#d3e8ff;padding
   <div class="header">
     <div><div class="eyebrow">Developer motion system / SVG native</div>
       <h1>Technology Motion Lab</h1>
-      <p class="lede">28 authentic technology marks, 28 distinct technical stories. Move the pointer over any icon to intensify its motion. Every effect is independently authored in SVG.</p>
+      <p class="lede">28 authentic marks, 28 technically grounded motion systems. Explore the diagrams at true README size or inspect them at 64 px. Hover or focus a card to reveal its interactive state.</p>
     </div>
   </div>
   <div class="tools" aria-label="Gallery filters">
     <input id="search" type="search" placeholder="Search technologies or behaviors…" aria-label="Search technologies">
     <select id="category" aria-label="Filter by category"><option value="">All categories</option><option>Languages</option><option>Frameworks</option><option>Frontend</option><option>AI &amp; Data</option><option>Infrastructure</option></select>
+    <select id="logo-size" aria-label="Logo display size"><option value="48">48 px · README</option><option value="64" selected>64 px · Inspect</option></select>
     <span id="count" class="count" aria-live="polite">28 technologies</span>
   </div>
   <div id="grid" class="grid" role="list"></div>
-  <p class="note">This local preview embeds SVGs via <code>&lt;object&gt;</code>, which can receive pointer interaction. GitHub Profile README embeds the same files via <code>&lt;img&gt;</code>; there they play subtle ambient motion because GitHub image embedding does not forward hover or active interaction to the SVG. Motion is disabled inside each SVG when the system requests reduced motion.</p>
+  <p class="note">Use Tab to focus a card; pressing Enter or Space gives a brief active state. This gallery embeds SVGs via <code>&lt;object&gt;</code>, which can receive pointer interaction. GitHub Profile README embeds the same files via <code>&lt;img&gt;</code>; there they play subtle ambient motion because GitHub image embedding does not forward hover or active interaction to the SVG. Motion is disabled inside each SVG when the system requests reduced motion.</p>
 </main>
 <script>
-const specs=[["c","C","Languages","Binary memory registers and instruction bus"],["cpp","C++","Languages","Directed high-performance execution lanes"],["csharp","C#","Languages","Layered software dependency architecture"],["go","Go","Languages","Concurrent goroutines rendezvous"],["python","Python","Languages","Sequential data transformation pipeline"],["rust","Rust","Languages","Ownership and borrow boundaries"],["kotlin","Kotlin","Languages","Modern gradient language flow"],["next","Next.js","Frameworks","Server routing and content distribution"],["nodejs","Node.js","Frameworks","Event-loop dispatch and callbacks"],["java","Java","Languages","JVM bytecode stack execution"],["typescript","TypeScript","Languages","Static type checks and validation"],["react","React Native","Frameworks","Electron orbit aligned to official atomic logo"],["html","HTML","Frontend","Top-down document rendering"],["css","CSS","Frontend","Cascading styles and interface layers"],["javascript","JavaScript","Frontend","Dynamic instruction evaluation"],["vue","Vue","Frameworks","Reactive state-to-view propagation"],["tensorflow","TensorFlow","AI & Data","Neural-network forward inference"],["docker","Docker","Infrastructure","Container image lifecycle"],["mysql","MySQL","AI & Data","Relational query row selection"],["postgres","PostgreSQL","AI & Data","Ordered transaction and commit"],["mongodb","MongoDB","AI & Data","Document-oriented storage"],["graphql","GraphQL","AI & Data","Selective graph query traversal"],["sqlite","SQLite","AI & Data","Embedded data read and write"],["git","Git","Infrastructure","Version branching and merge"],["linux","Linux","Infrastructure","Terminal command execution"],["postman","Postman","Infrastructure","HTTP request, response and acknowledgement"],["fastapi","FastAPI","Frameworks","Fast API endpoint processing"],["rest-api","REST API","Infrastructure","Client-server request and response"]];
+const specs=[["c", "C", "Languages", "8-bit register decode and memory bus"], ["cpp", "C++", "Languages", "SIMD execution lanes and synchronization"], ["csharp", "C#", "Languages", "Component dependency contracts"], ["go", "Go", "Languages", "Concurrent goroutine rendezvous"], ["python", "Python", "Languages", "Interpreter input, evaluation, output"], ["rust", "Rust", "Languages", "Ownership transfer and immutable borrow"], ["kotlin", "Kotlin", "Languages", "Coroutine suspension/resumption gradient"], ["next", "Next.js", "Frameworks", "Request routing, selected page, SSR"], ["nodejs", "Node.js", "Frameworks", "FIFO task queue, event loop, callback"], ["java", "Java", "Languages", "JVM bytecode stack push/pop"], ["typescript", "TypeScript", "Languages", "Typed declaration, validation, JS emit"], ["react", "React Native", "Frameworks", "Exclusive three-ellipse electron orbit"], ["html", "HTML", "Frontend", "DOM tree assembly"], ["css", "CSS", "Frontend", "Cascade resolution and computed styling"], ["javascript", "JavaScript", "Frontend", "Expression evaluation and dynamic output"], ["vue", "Vue", "Frameworks", "Reactive state → computed → view"], ["tensorflow", "TensorFlow", "AI & Data", "Neural inference through weighted layers"], ["docker", "Docker", "Infrastructure", "Image layers → container RUN"], ["mysql", "MySQL", "AI & Data", "SQL SELECT table-row scan"], ["postgres", "PostgreSQL", "AI & Data", "ACID BEGIN → WRITE → COMMIT"], ["mongodb", "MongoDB", "AI & Data", "Document store and selected JSON document"], ["graphql", "GraphQL", "AI & Data", "Selective graph traversal"], ["sqlite", "SQLite", "AI & Data", "Embedded flash-memory read/write"], ["git", "Git", "Infrastructure", "Main/feature commit graph and merge"], ["linux", "Linux", "Infrastructure", "Terminal ls execution and output"], ["postman", "Postman", "Infrastructure", "HTTP testing request/response panels and 200"], ["fastapi", "FastAPI", "Frameworks", "Endpoint routing and JSON response"], ["rest-api", "REST API", "Infrastructure", "Client/server with bidirectional packets"]];
 const cards=specs.map(([id,name,category,details])=>{
-  const card=document.createElement("article");card.className="card";card.setAttribute("role","listitem");
+  const card=document.createElement("article");card.className="card";card.setAttribute("role","listitem");card.tabIndex=0;card.setAttribute("aria-label",name+": "+details+". Focus or hover to inspect animation.");
   const wrap=document.createElement("div");wrap.className="icon-wrap";
-  const icon=document.createElement("object");icon.type="image/svg+xml";icon.data="./"+id+".svg";icon.setAttribute("role","img");icon.setAttribute("aria-label",name+" animated icon");icon.tabIndex=0;
+  const icon=document.createElement("object");icon.type="image/svg+xml";icon.data="./"+id+".svg";icon.setAttribute("role","img");icon.setAttribute("aria-label",name+" animated icon");icon.tabIndex=-1;
   const fallback=document.createElement("img");fallback.src="./"+id+".svg";fallback.alt=name;fallback.width=64;fallback.height=64;icon.append(fallback);
   wrap.append(icon);
   const heading=document.createElement("h2");heading.className="name";heading.textContent=name;
   const subtitle=document.createElement("p");subtitle.className="details";subtitle.textContent=details;
   const kind=document.createElement("span");kind.className="category";kind.textContent=category;
-  card.append(wrap,heading,subtitle,kind);return {card,query:(name+" "+details+" "+category).toLowerCase(),category};
+  card.append(wrap,heading,subtitle,kind);
+  // Keep <object> for native SVG interactivity. Pointer events belong to the
+  // keyboard-focusable card, whose state is forwarded to its SVG document.
+  function setState(active,pressed=false){
+    try{const root=icon.contentDocument?.documentElement;
+      root?.classList.toggle("is-interactive",active);
+      root?.classList.toggle("is-active",pressed);
+    }catch(_){/* Fallback image remains readable if embedded document is restricted. */}
+  }
+  icon.addEventListener("load",()=>setState(card.matches(":hover, :focus-visible")));
+  card.addEventListener("mouseenter",()=>setState(true));
+  card.addEventListener("mouseleave",()=>setState(card.matches(":focus-visible")));
+  card.addEventListener("focusin",()=>setState(true));
+  card.addEventListener("focusout",()=>setState(card.matches(":hover")));
+  card.addEventListener("pointerdown",()=>setState(true,true));
+  card.addEventListener("pointerup",()=>setState(true,false));
+  card.addEventListener("pointercancel",()=>setState(true,false));
+  card.addEventListener("keydown",ev=>{if(ev.code==="Space"||ev.code==="Enter"){
+    ev.preventDefault();setState(true,true);
+  }});
+  card.addEventListener("keyup",ev=>{if(ev.code==="Space"||ev.code==="Enter"){
+    ev.preventDefault();setState(true,false);
+  }});
+  return {card,query:(name+" "+details+" "+category).toLowerCase(),category};
 });
-const grid=document.getElementById("grid"),search=document.getElementById("search"),filter=document.getElementById("category"),count=document.getElementById("count");
+const grid=document.getElementById("grid"),search=document.getElementById("search"),filter=document.getElementById("category"),count=document.getElementById("count"),logoSize=document.getElementById("logo-size");
+logoSize.addEventListener("change",()=>document.documentElement.style.setProperty("--logo-size",logoSize.value+"px"));
 function render(){
  const q=search.value.trim().toLowerCase(),kind=filter.value;
  const visible=cards.filter(c=>(!kind||c.category===kind)&&c.query.includes(q));
