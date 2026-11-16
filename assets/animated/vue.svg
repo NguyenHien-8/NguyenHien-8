@@ -1,26 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Vue — animated original logo</title>
-<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
-<defs>
-  <radialGradient id="aura"><stop stop-color="#5BDCAB" stop-opacity=".34"/><stop offset="1" stop-color="#5BDCAB" stop-opacity="0"/></radialGradient>
-  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
-</defs>
-<circle cx="32" cy="32" r="31" fill="url(#aura)">
-  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-3.90s" repeatCount="indefinite"/>
-</circle>
-<g>
-  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-3.90s" repeatCount="indefinite"/>
-  <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#242938" rx="60"/><path fill="#41B883" d="M182 50H218L128 205.25L38 50H73.55H106.85L128 86L148.7 50H182Z"/><path fill="#41B883" d="M38 50L128 205.25L218 50H182L128 143.15L73.55 50H38Z"/><path fill="#fff" d="M73.55 50L128 143.6L182 50H148.7L128 86L106.85 50H73.55Z"/></svg>
-
-  <g clip-path="url(#trim)">
-    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
-      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-3.90s" repeatCount="indefinite"/>
-    </path>
-  </g>
+<title id="title">Vue — semantic animated logo</title>
+<desc id="desc">Nested chevrons descend like Vue's progressive rendering layers. Original brand artwork retained.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#242938" rx="60"/><path fill="#41B883" d="M182 50H218L128 205.25L38 50H73.55H106.85L128 86L148.7 50H182Z"/><path fill="#41B883" d="M38 50L128 205.25L218 50H182L128 143.15L73.55 50H38Z"/><path fill="#fff" d="M73.55 50L128 143.6L182 50H148.7L128 86L106.85 50H73.55Z"/></svg>
+<g fill="none" stroke="#9DF9D6" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round">
+<path d="M18 42L32 55L46 42" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;40" dur="3.9s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.75;.12" dur="3.9s" begin="0.0s" repeatCount="indefinite"/></path><path d="M22 47L32 56L42 47" stroke-dasharray="40"><animate attributeName="stroke-dashoffset" values="40;0;40" dur="3.9s" begin="-0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".12;.75;.12" dur="3.9s" begin="-0.7s" repeatCount="indefinite"/></path>
 </g>
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-3.90s" repeatCount="indefinite"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#5BDCAB" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
-  <circle cx="62" cy="32" r="1.6" fill="#5BDCAB"/>
-</g>
+<circle cx="32" cy="9" r="2" fill="#54E4B7"><animate attributeName="cy" values="8;14;8" dur="2.4s" repeatCount="indefinite"/></circle>
 </svg>
