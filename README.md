@@ -33,7 +33,7 @@ My experience includes:
       <br>Go
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=py" alt="Python" width="48" height="48" />
       <br>Python
     </td>
     <td align="center" width="96">
@@ -59,11 +59,11 @@ My experience includes:
       <br>Java
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="48" height="48" />
       <br>TypeScript
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=react" alt="React" width="48" height="48" />
       <br>React Native
     </td>
     <td align="center" width="96">
@@ -75,7 +75,7 @@ My experience includes:
       <br>CSS
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="48" height="48" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
@@ -90,11 +90,11 @@ My experience includes:
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="48" height="48" />
       <br>Docker
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" width="48" height="48" />
       <br>MySQL
     </td>
     <td align="center" width="96">
@@ -106,7 +106,7 @@ My experience includes:
       <br>MongoDB
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/graphql-icon.svg" alt="GraphQL" width="48" height="48" />
+      <img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" width="48" height="48" />
       <br>GraphQL
     </td>
     <td align="center" width="96">
@@ -133,7 +133,7 @@ My experience includes:
       <br>FastAPI
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="48" height="48" />
+      <img src="./assets/rest-api.svg" alt="REST API" width="48" height="48" />
       <br>REST API
     </td>
     <td colspan="4"></td> 
