@@ -1,33 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">C++ — animated technology icon</title>
-<desc id="desc">Self-contained animated vector icon, gently floating with a rotating illuminated orbit.</desc>
+<title id="title">C++ — animated original logo</title>
+<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#252D40"/><stop offset=".54" stop-color="#171E2C"/><stop offset="1" stop-color="#111725"/></linearGradient>
- <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#48A9EE" stop-opacity=".6"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#48A9EE" stop-opacity=".22"/></linearGradient>
- <radialGradient id="halo"><stop offset="0" stop-color="#48A9EE" stop-opacity=".26"/><stop offset="1" stop-color="#48A9EE" stop-opacity="0"/></radialGradient>
- <clipPath id="clip"><rect x="2" y="2" width="60" height="60" rx="15"/></clipPath>
+  <radialGradient id="aura"><stop stop-color="#12A9EA" stop-opacity=".34"/><stop offset="1" stop-color="#12A9EA" stop-opacity="0"/></radialGradient>
+  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
 </defs>
-<rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
-<g clip-path="url(#clip)">
- <circle cx="47" cy="47" r="35" fill="url(#halo)">
-   <animate attributeName="opacity" values=".66;1;.66" dur="3.37s" begin="-0.17s" repeatCount="indefinite"/>
- </circle>
- <path d="M6 24Q6 6 24 6H48" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
-</g>
-<rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
-<circle cx="32" cy="30" r="24.7" fill="none" stroke="#48A9EE" stroke-opacity=".09" stroke-width=".9"/>
+<circle cx="32" cy="32" r="31" fill="url(#aura)">
+  <animate attributeName="opacity" values=".45;.95;.45" dur="4.54s" begin="-0.33s" repeatCount="indefinite"/>
+</circle>
 <g>
- <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 32 30" to="360 32 30" dur="7.80s" begin="-0.17s" repeatCount="indefinite"/>
- <circle cx="32" cy="30" r="24.7" fill="none" stroke="#48A9EE" stroke-opacity=".64" stroke-width="1.55" stroke-dasharray="14 141"/>
- <circle cx="56.7" cy="30" r="2.3" fill="#48A9EE"/>
- <circle cx="56.7" cy="30" r="4.9" fill="#48A9EE" opacity=".16"/>
+  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.54s" begin="-0.33s" repeatCount="indefinite"/>
+  <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#00599C" rx="60"/><path fill="#fff" d="M110.759 210.517C65.1254 210.517 28 173.392 28 127.759C28 82.1254 65.1254 45 110.759 45C140.204 45 167.667 60.8458 182.427 86.3533L146.611 107.079C139.224 94.3111 125.485 86.3793 110.759 86.3793C87.9416 86.3793 69.3793 104.942 69.3793 127.759C69.3793 150.575 87.9416 169.138 110.759 169.138C125.486 169.138 139.225 161.206 146.613 148.436L182.429 169.161C167.669 194.671 140.206 210.517 110.759 210.517Z"/><path fill="#fff" d="M193.517 123.161H184.321V113.965H175.127V123.161H165.931V132.356H175.127V141.552H184.321V132.356H193.517V123.161Z"/><path fill="#fff" d="M228 123.161H218.804V113.965H209.61V123.161H200.414V132.356H209.61V141.552H218.804V132.356H228V123.161Z"/></svg>
+  <g clip-path="url(#trim)">
+    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
+      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.50s" begin="-0.33s" repeatCount="indefinite"/>
+    </path>
+  </g>
 </g>
-<g transform="translate(32 30)">
- <g>
-  <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 1.35;0 -1.9;0 1.35" keyTimes="0;.5;1" dur="3.37s" begin="-0.17s" repeatCount="indefinite"/>
-  <text x="-7" y="12" fill="#F9FBFF" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="850" text-anchor="middle" >C</text><text x="12" y="-3" fill="#b5e8ff" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="850" text-anchor="middle" >++</text>
- </g>
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="11.0s" begin="-0.33s" repeatCount="indefinite"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#12A9EA" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
+  <circle cx="62" cy="32" r="1.6" fill="#12A9EA"/>
 </g>
-<circle cx="13" cy="51" r="1.2" fill="#48A9EE" opacity=".4"><animate attributeName="opacity" values=".22;.8;.22" dur="2.35s" begin="-0.17s" repeatCount="indefinite"/></circle>
-<circle cx="52" cy="11" r=".9" fill="#FFFFFF" opacity=".24"><animate attributeName="opacity" values=".12;.7;.12" dur="2.31s" begin="-0.17s" repeatCount="indefinite"/></circle>
 </svg>
