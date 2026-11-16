@@ -1,0 +1,21 @@
+name: Validate technology logo animations
+on:
+  push:
+    paths:
+      - "assets/animated/**"
+      - "tools/validate_animations.py"
+      - ".github/workflows/validate-animations.yml"
+  pull_request:
+    paths:
+      - "assets/animated/**"
+      - "tools/validate_animations.py"
+      - ".github/workflows/validate-animations.yml"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate all SVG animations
+        run: python3 tools/validate_animations.py

@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Postman — semantic animated logo</title>
-<desc id="desc">An API request flies right and its response returns left. Original artwork retained.</desc>
+<title id="title">Postman: interactive technology animation</title>
+<desc id="desc">A distinct HTTP request travels outward, followed by its response and a completion acknowledgement. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#FF6C37"/>
 <path d="M169.061 88.6123L118.521 139.153L104.268 124.901C153.971 75.1986 158.882 79.5101 169.061 88.6123Z" fill="#EEEEEE"/>
@@ -24,9 +30,7 @@
 <path d="M109.418 147.657C107.741 147.657 106.424 146.34 106.424 144.663C106.424 143.825 106.783 143.106 107.262 142.508L114.568 135.202C115.047 134.722 115.766 134.722 116.245 135.202L123.79 142.747C124.149 143.106 124.269 143.465 124.149 143.945C124.029 144.304 123.67 144.663 123.192 144.783L110.017 147.657C109.778 147.657 109.538 147.657 109.418 147.657ZM115.406 137.717L108.939 144.184C108.7 144.424 108.7 144.663 108.819 144.903C108.939 145.142 109.179 145.262 109.538 145.262L120.556 142.866L115.406 137.717Z" fill="#FF6C37"/>
 <path d="M196.248 72.4434C196.009 71.7254 195.17 71.3661 194.451 71.6057C193.733 71.8444 193.374 72.6829 193.614 73.4017C193.614 73.5215 193.733 73.6412 193.733 73.761C194.451 75.1985 194.213 76.9945 193.254 78.3121C192.775 78.9111 192.895 79.7496 193.374 80.2287C193.973 80.7071 194.811 80.5881 195.29 79.9892C197.087 77.7132 197.446 74.8391 196.248 72.4434Z" fill="#FF6C37"/>
 </svg>
-<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9">
-<path d="M10 13H53L48 9M53 13L48 17" stroke="#FFDBCA" stroke-dasharray="55"><animate attributeName="stroke-dashoffset" values="55;0;0;55" keyTimes="0;.42;.73;1" dur="4.1s" repeatCount="indefinite"/></path>
-<path d="M54 51H11L16 47M11 51L16 55" stroke="#FFD7A1" stroke-dasharray="55"><animate attributeName="stroke-dashoffset" values="55;0;0;55" keyTimes="0;.42;.73;1" dur="4.1s" begin="-2.05s" repeatCount="indefinite"/></path></g>
-<circle r="2.2" fill="#FFFFFF"><animateMotion path="M10 13H53" dur="2.3s" repeatCount="indefinite"/></circle>
-<circle r="2" fill="#FFD7A1"><animateMotion path="M54 51H11" dur="2.3s" begin="-1.15s" repeatCount="indefinite"/></circle>
+<g class="tech-effect" aria-hidden="true">
+<g fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12H56l-4-3m4 3-4 3" stroke="#FFD8B4" opacity=".78"/><path d="M56 20H8l4-3m-4 3 4 3" stroke="#C9EAFF" opacity=".78"/></g><circle r="1.7" fill="#FFE3C6"><animateMotion path="M8 12H56" dur="4.4s" begin="0s" repeatCount="indefinite" calcMode="paced"/></circle><circle r="1.7" fill="#D7F4FF"><animateMotion path="M56 20H8" dur="4.4s" begin="-2.2s" repeatCount="indefinite" calcMode="paced"/></circle><path d="M47 48l4 4 6-8" fill="none" stroke="#C7FFE3" stroke-width="1.8" stroke-dasharray="19" stroke-dashoffset="19"><animate attributeName="stroke-dashoffset" values="19;19;0;0;19" keyTimes="0;.6;.8;.9;1" dur="4.4s" repeatCount="indefinite"/></path>
+</g>
 </svg>

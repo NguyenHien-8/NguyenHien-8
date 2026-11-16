@@ -1,13 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">FastAPI — semantic animated logo</title>
-<desc id="desc">A lightning pulse races down a fast API bolt and completes a request. Original artwork retained.</desc>
+<title id="title">FastAPI: interactive technology animation</title>
+<desc id="desc">Requests enter a single endpoint and receive fast serialized responses in succession. Official logo artwork is preserved without changes.</desc>
+<style>
+.tech-effect{opacity:.46;pointer-events:none;transition:opacity .35s ease}
+:root:hover > .tech-effect,:root:focus > .tech-effect{opacity:.96}
+:root:active > .tech-effect{opacity:1}
+@media (prefers-reduced-motion:reduce){.tech-effect{display:none}}
+</style>
 <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#049789"/>
 <path d="M127.5 41C79.743 41 41 79.743 41 127.5C41 175.257 79.743 214 127.5 214C175.257 214 214 175.257 214 127.5C214 79.743 175.257 41 127.5 41ZM122.993 196.839V142.581H92.8306L136.167 58.1615V112.419H165.203L122.993 196.839Z" fill="white"/>
 </svg>
-<path d="M34 8L23 30H34L28 53L44 26H33Z" fill="none" stroke="#C9FFEC" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="102" opacity=".7">
-<animate attributeName="stroke-dashoffset" values="102;0;102" dur="2.8s" repeatCount="indefinite"/>
-<animate attributeName="opacity" values=".12;.85;.12" dur="2.8s" repeatCount="indefinite"/></path>
-<circle cx="32" cy="32" r="25" fill="none" stroke="#9FFFE7" stroke-width="1.3" stroke-opacity=".3" stroke-dasharray="5 17"><animate attributeName="stroke-dashoffset" values="0;-44" dur="2s" repeatCount="indefinite"/></circle>
-<circle cx="52" cy="15" r="2.1" fill="#A1FFE7"><animate attributeName="r" values="1;2.8;1" dur="2.8s" repeatCount="indefinite"/></circle>
+<g class="tech-effect" aria-hidden="true">
+<g fill="none" stroke="#D0FFF1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 49H29l4-4 4 4h20"/><rect x="30" y="43" width="11" height="12" rx="2" fill="#D3FFF2" fill-opacity=".13"/></g><circle r="1.7" fill="#FFFFFF"><animateMotion path="M7 49H29L33 45L37 49H57" dur="2.2s" begin="0s" repeatCount="indefinite" calcMode="paced"/></circle><circle r="1.7" fill="#A5FFDE"><animateMotion path="M7 49H29L33 45L37 49H57" dur="2.2s" begin="-.75s" repeatCount="indefinite" calcMode="paced"/></circle><circle cx="54" cy="49" r="2.5" stroke="#E2FFF4" stroke-width="1" fill="none"><animate attributeName="opacity" values=".15;1;.15" dur="2.2s" begin="-1.2s" repeatCount="indefinite"/></circle>
+</g>
 </svg>
