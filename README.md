@@ -14,8 +14,6 @@ My experience includes:
 
 ### Technologies &amp; Tools
 
-<p align="center"><sub>28 custom motion SVG icons · self-contained · no external icon service</sub></p>
-
 <br/>
 <div style="display: flex; align-items: flex-start; justify-content: center">
 <table align="center">
