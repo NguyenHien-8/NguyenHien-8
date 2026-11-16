@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title id="title">Next.js — animated technology icon</title>
+<desc id="desc">Self-contained animated vector icon, gently floating with a rotating illuminated orbit.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#252D40"/><stop offset=".54" stop-color="#171E2C"/><stop offset="1" stop-color="#111725"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F7FB" stop-opacity=".6"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#F4F7FB" stop-opacity=".22"/></linearGradient>
+ <radialGradient id="halo"><stop offset="0" stop-color="#F4F7FB" stop-opacity=".26"/><stop offset="1" stop-color="#F4F7FB" stop-opacity="0"/></radialGradient>
+ <clipPath id="clip"><rect x="2" y="2" width="60" height="60" rx="15"/></clipPath>
+</defs>
+<rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+<g clip-path="url(#clip)">
+ <circle cx="47" cy="47" r="35" fill="url(#halo)">
+   <animate attributeName="opacity" values=".66;1;.66" dur="3.74s" begin="-1.19s" repeatCount="indefinite"/>
+ </circle>
+ <path d="M6 24Q6 6 24 6H48" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+</g>
+<rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<circle cx="32" cy="30" r="24.7" fill="none" stroke="#F4F7FB" stroke-opacity=".09" stroke-width=".9"/>
+<g>
+ <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 32 30" to="360 32 30" dur="7.80s" begin="-1.19s" repeatCount="indefinite"/>
+ <circle cx="32" cy="30" r="24.7" fill="none" stroke="#F4F7FB" stroke-opacity=".64" stroke-width="1.55" stroke-dasharray="14 141"/>
+ <circle cx="56.7" cy="30" r="2.3" fill="#F4F7FB"/>
+ <circle cx="56.7" cy="30" r="4.9" fill="#F4F7FB" opacity=".16"/>
+</g>
+<g transform="translate(32 30)">
+ <g>
+  <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 1.35;0 -1.9;0 1.35" keyTimes="0;.5;1" dur="3.74s" begin="-1.19s" repeatCount="indefinite"/>
+  <circle cx="0" cy="0" r="19" fill="#F5F6FA" /><text x="-2" y="8" fill="#141B27" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="650" text-anchor="middle" >N</text><path d="M1-11L16 15" fill="none" stroke="#141B27" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" />
+ </g>
+</g>
+<circle cx="13" cy="51" r="1.2" fill="#F4F7FB" opacity=".4"><animate attributeName="opacity" values=".22;.8;.22" dur="2.20s" begin="-1.19s" repeatCount="indefinite"/></circle>
+<circle cx="52" cy="11" r=".9" fill="#FFFFFF" opacity=".24"><animate attributeName="opacity" values=".12;.7;.12" dur="2.31s" begin="-1.19s" repeatCount="indefinite"/></circle>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title id="title">PostgreSQL — animated technology icon</title>
+<desc id="desc">Self-contained animated vector icon, gently floating with a rotating illuminated orbit.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#252D40"/><stop offset=".54" stop-color="#171E2C"/><stop offset="1" stop-color="#111725"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#79A9E3" stop-opacity=".6"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#79A9E3" stop-opacity=".22"/></linearGradient>
+ <radialGradient id="halo"><stop offset="0" stop-color="#79A9E3" stop-opacity=".26"/><stop offset="1" stop-color="#79A9E3" stop-opacity="0"/></radialGradient>
+ <clipPath id="clip"><rect x="2" y="2" width="60" height="60" rx="15"/></clipPath>
+</defs>
+<rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+<g clip-path="url(#clip)">
+ <circle cx="47" cy="47" r="35" fill="url(#halo)">
+   <animate attributeName="opacity" values=".66;1;.66" dur="4.48s" begin="-3.23s" repeatCount="indefinite"/>
+ </circle>
+ <path d="M6 24Q6 6 24 6H48" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+</g>
+<rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<circle cx="32" cy="30" r="24.7" fill="none" stroke="#79A9E3" stroke-opacity=".09" stroke-width=".9"/>
+<g>
+ <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 32 30" to="360 32 30" dur="7.80s" begin="-3.23s" repeatCount="indefinite"/>
+ <circle cx="32" cy="30" r="24.7" fill="none" stroke="#79A9E3" stroke-opacity=".64" stroke-width="1.55" stroke-dasharray="14 141"/>
+ <circle cx="56.7" cy="30" r="2.3" fill="#79A9E3"/>
+ <circle cx="56.7" cy="30" r="4.9" fill="#79A9E3" opacity=".16"/>
+</g>
+<g transform="translate(32 30)">
+ <g>
+  <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 1.35;0 -1.9;0 1.35" keyTimes="0;.5;1" dur="4.48s" begin="-3.23s" repeatCount="indefinite"/>
+  <path d="M-17-10Q-16-20-5-17Q0-19 4-16Q16-20 18-10L16 6Q12 11 7 7L5 17Q1 22-4 16L-4 2Q-11 8-17 1Z" fill="#77A6D8" /><path d="M-4-12Q-2-5-3 2L-4 13Q-3 18 1 16L3 4Q3-4 6-12M-13-9L-8-7M11-9L7-7" fill="none" stroke="#F4FBFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" /><circle cx="-8" cy="-5" r="1.4" fill="#F9FBFF" /><circle cx="10" cy="-5" r="1.4" fill="#F9FBFF" />
+ </g>
+</g>
+<circle cx="13" cy="51" r="1.2" fill="#79A9E3" opacity=".4"><animate attributeName="opacity" values=".22;.8;.22" dur="2.95s" begin="-3.23s" repeatCount="indefinite"/></circle>
+<circle cx="52" cy="11" r=".9" fill="#FFFFFF" opacity=".24"><animate attributeName="opacity" values=".12;.7;.12" dur="2.31s" begin="-3.23s" repeatCount="indefinite"/></circle>
+</svg>
