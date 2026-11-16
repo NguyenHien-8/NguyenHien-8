@@ -1,30 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">FastAPI — animated original logo</title>
-<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
-<defs>
-  <radialGradient id="aura"><stop stop-color="#39D6BC" stop-opacity=".34"/><stop offset="1" stop-color="#39D6BC" stop-opacity="0"/></radialGradient>
-  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
-</defs>
-<circle cx="32" cy="32" r="31" fill="url(#aura)">
-  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-6.76s" repeatCount="indefinite"/>
-</circle>
-<g>
-  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-6.76s" repeatCount="indefinite"/>
-  <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">FastAPI — semantic animated logo</title>
+<desc id="desc">A lightning pulse races down a fast API bolt and completes a request. Original artwork retained.</desc>
+<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#049789"/>
 <path d="M127.5 41C79.743 41 41 79.743 41 127.5C41 175.257 79.743 214 127.5 214C175.257 214 214 175.257 214 127.5C214 79.743 175.257 41 127.5 41ZM122.993 196.839V142.581H92.8306L136.167 58.1615V112.419H165.203L122.993 196.839Z" fill="white"/>
 </svg>
-
-
-  <g clip-path="url(#trim)">
-    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
-      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-6.76s" repeatCount="indefinite"/>
-    </path>
-  </g>
-</g>
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-6.76s" repeatCount="indefinite"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#39D6BC" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
-  <circle cx="62" cy="32" r="1.6" fill="#39D6BC"/>
-</g>
+<path d="M34 8L23 30H34L28 53L44 26H33Z" fill="none" stroke="#C9FFEC" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="102" opacity=".7">
+<animate attributeName="stroke-dashoffset" values="102;0;102" dur="2.8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".12;.85;.12" dur="2.8s" repeatCount="indefinite"/></path>
+<circle cx="32" cy="32" r="25" fill="none" stroke="#9FFFE7" stroke-width="1.3" stroke-opacity=".3" stroke-dasharray="5 17"><animate attributeName="stroke-dashoffset" values="0;-44" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="52" cy="15" r="2.1" fill="#A1FFE7"><animate attributeName="r" values="1;2.8;1" dur="2.8s" repeatCount="indefinite"/></circle>
 </svg>

@@ -1,16 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">Postman — animated original logo</title>
-<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
-<defs>
-  <radialGradient id="aura"><stop stop-color="#FF8055" stop-opacity=".34"/><stop offset="1" stop-color="#FF8055" stop-opacity="0"/></radialGradient>
-  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
-</defs>
-<circle cx="32" cy="32" r="31" fill="url(#aura)">
-  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-6.50s" repeatCount="indefinite"/>
-</circle>
-<g>
-  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-6.50s" repeatCount="indefinite"/>
-  <svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title id="title">Postman — semantic animated logo</title>
+<desc id="desc">An API request flies right and its response returns left. Original artwork retained.</desc>
+<svg x="4" width="56" y="4" height="56" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="256" height="256" rx="60" fill="#FF6C37"/>
 <path d="M169.061 88.6123L118.521 139.153L104.268 124.901C153.971 75.1986 158.882 79.5101 169.061 88.6123Z" fill="#EEEEEE"/>
 <path d="M118.521 140.35C118.161 140.35 117.922 140.231 117.682 139.991L103.31 125.739C102.831 125.26 102.831 124.542 103.31 124.063C153.851 73.5211 159.12 78.3118 169.78 87.8932C170.02 88.1328 170.139 88.3724 170.139 88.7317C170.139 89.0911 170.02 89.3306 169.78 89.5694L119.239 139.991C119.12 140.231 118.76 140.35 118.521 140.35ZM105.945 124.901L118.521 137.476L167.265 88.7317C158.403 80.8266 152.414 78.4316 105.945 124.901Z" fill="#FF6C37"/>
@@ -33,17 +24,9 @@
 <path d="M109.418 147.657C107.741 147.657 106.424 146.34 106.424 144.663C106.424 143.825 106.783 143.106 107.262 142.508L114.568 135.202C115.047 134.722 115.766 134.722 116.245 135.202L123.79 142.747C124.149 143.106 124.269 143.465 124.149 143.945C124.029 144.304 123.67 144.663 123.192 144.783L110.017 147.657C109.778 147.657 109.538 147.657 109.418 147.657ZM115.406 137.717L108.939 144.184C108.7 144.424 108.7 144.663 108.819 144.903C108.939 145.142 109.179 145.262 109.538 145.262L120.556 142.866L115.406 137.717Z" fill="#FF6C37"/>
 <path d="M196.248 72.4434C196.009 71.7254 195.17 71.3661 194.451 71.6057C193.733 71.8444 193.374 72.6829 193.614 73.4017C193.614 73.5215 193.733 73.6412 193.733 73.761C194.451 75.1985 194.213 76.9945 193.254 78.3121C192.775 78.9111 192.895 79.7496 193.374 80.2287C193.973 80.7071 194.811 80.5881 195.29 79.9892C197.087 77.7132 197.446 74.8391 196.248 72.4434Z" fill="#FF6C37"/>
 </svg>
-
-
-  <g clip-path="url(#trim)">
-    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
-      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-6.50s" repeatCount="indefinite"/>
-    </path>
-  </g>
-</g>
-<g>
-  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-6.50s" repeatCount="indefinite"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#FF8055" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
-  <circle cx="62" cy="32" r="1.6" fill="#FF8055"/>
-</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9">
+<path d="M10 13H53L48 9M53 13L48 17" stroke="#FFDBCA" stroke-dasharray="55"><animate attributeName="stroke-dashoffset" values="55;0;0;55" keyTimes="0;.42;.73;1" dur="4.1s" repeatCount="indefinite"/></path>
+<path d="M54 51H11L16 47M11 51L16 55" stroke="#FFD7A1" stroke-dasharray="55"><animate attributeName="stroke-dashoffset" values="55;0;0;55" keyTimes="0;.42;.73;1" dur="4.1s" begin="-2.05s" repeatCount="indefinite"/></path></g>
+<circle r="2.2" fill="#FFFFFF"><animateMotion path="M10 13H53" dur="2.3s" repeatCount="indefinite"/></circle>
+<circle r="2" fill="#FFD7A1"><animateMotion path="M54 51H11" dur="2.3s" begin="-1.15s" repeatCount="indefinite"/></circle>
 </svg>

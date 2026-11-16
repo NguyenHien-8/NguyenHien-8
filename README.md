@@ -14,6 +14,8 @@ My experience includes:
 
 ### Technologies &amp; Tools
 
+<p align="center"><sub>28 unique function-inspired animations</sub></p>
+
 <br/>
 <div style="display: flex; align-items: flex-start; justify-content: center">
 <table align="center">
@@ -141,5 +143,7 @@ My experience includes:
     <td colspan="4"></td> 
   </tr>
 </table>
+
+<p align="center"><sub><a href="./assets/animated/README.md">Explore the meaning behind each animation</a></sub></p>
 
 </div>
