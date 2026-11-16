@@ -1,12 +1,22 @@
-# Custom animated technology icons
+# Animated technology icons — authentic logos
 
-These 28 SVGs are original, locally hosted artwork for this GitHub profile README. Every icon contains its own vector artwork, gradient, rotating arc, pulsing accents, and subtle floating motion. No JavaScript, external images, animated-icon service, network requests, or third-party runtime dependency is used.
+All **28 icons** are embedded locally in this repository. The **original, recognizable brand logos** (27 assets) were sourced from [Skill Icons by tandpfun](https://github.com/tandpfun/skill-icons), distributed under the MIT license. The REST API icon is a local pictogram created for this profile.
 
-## Edit icons
-- Open any `*.svg` in a text editor. The color appears as hexadecimal `fill` / `stroke` values.
-- Adjust SVG `animateTransform` `dur`, `values` and `begin` to customize motion. They use native browser SMIL animation.
-- The README references these files locally as `./assets/animated/<name>.svg`.
-- Every SVG is 64 × 64 and is displayed at 48 × 48 in the README.
+## Design
 
-## Compatibility
-SVG motion generally works in modern browsers. GitHub and its image proxy may show a static frame for some users or environments; browsers with reduced-motion or animation-blocking settings may also suppress motion. If guaranteed autoplay across every GitHub client is a strict requirement, pre-render the animated SVG icons to GIF or APNG and point README images to those assets. No external runtime service is needed.
+- The brand artwork, colors, proportions and original logo tile backgrounds are preserved.
+- Animation lives around the logo: a small floating movement, breathing glow, gentle shine, and a tiny revolving highlight on the outer border.
+- Every icon is a single self-contained SVG containing its own original logo artwork, rather than requesting any image from a CDN.
+- The HTML table in the profile README references `./assets/animated/*.svg` and displays them at 48 x 48.
+
+## Customization
+
+Each icon's SVG uses declarative SVG `animate` / `animateTransform`, without any JavaScript. Edit `dur` (seconds) for animation speed, `begin` for a start offset, `stroke-opacity` for the orbit's subtlety, and `opacity` on the shine overlay for brightness. The nested 56x56 SVG holds the original logo. **Do not edit it** if you want to preserve logo fidelity.
+
+## Browser & GitHub support
+
+Modern browsers support these animations, but GitHub's image proxy and some clients may render SVGs differently or show a still frame. Reduced-motion preferences or browser settings can also suppress animation. If motion is not displayed in your GitHub client, pre-render local GIF/APNG assets using the same original SVGs rather than depending on an outside animation service.
+
+## Attribution
+
+See [SKILL-ICONS-LICENSE.txt](./SKILL-ICONS-LICENSE.txt) for the MIT license and required copyright notice. All third-party brand logos belong to their respective owners. The extra motion composition in this repository is custom work.

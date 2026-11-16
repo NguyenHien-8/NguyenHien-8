@@ -1,33 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">GraphQL — animated technology icon</title>
-<desc id="desc">Self-contained animated vector icon, gently floating with a rotating illuminated orbit.</desc>
+<title id="title">GraphQL — animated original logo</title>
+<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#252D40"/><stop offset=".54" stop-color="#171E2C"/><stop offset="1" stop-color="#111725"/></linearGradient>
- <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EE51B7" stop-opacity=".6"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#EE51B7" stop-opacity=".22"/></linearGradient>
- <radialGradient id="halo"><stop offset="0" stop-color="#EE51B7" stop-opacity=".26"/><stop offset="1" stop-color="#EE51B7" stop-opacity="0"/></radialGradient>
- <clipPath id="clip"><rect x="2" y="2" width="60" height="60" rx="15"/></clipPath>
+  <radialGradient id="aura"><stop stop-color="#F45CC2" stop-opacity=".34"/><stop offset="1" stop-color="#F45CC2" stop-opacity="0"/></radialGradient>
+  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
 </defs>
-<rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
-<g clip-path="url(#clip)">
- <circle cx="47" cy="47" r="35" fill="url(#halo)">
-   <animate attributeName="opacity" values=".66;1;.66" dur="3.37s" begin="-3.57s" repeatCount="indefinite"/>
- </circle>
- <path d="M6 24Q6 6 24 6H48" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
-</g>
-<rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
-<circle cx="32" cy="30" r="24.7" fill="none" stroke="#EE51B7" stroke-opacity=".09" stroke-width=".9"/>
+<circle cx="32" cy="32" r="31" fill="url(#aura)">
+  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-5.46s" repeatCount="indefinite"/>
+</circle>
 <g>
- <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 32 30" to="360 32 30" dur="9.40s" begin="-3.57s" repeatCount="indefinite"/>
- <circle cx="32" cy="30" r="24.7" fill="none" stroke="#EE51B7" stroke-opacity=".64" stroke-width="1.55" stroke-dasharray="14 141"/>
- <circle cx="56.7" cy="30" r="2.3" fill="#EE51B7"/>
- <circle cx="56.7" cy="30" r="4.9" fill="#EE51B7" opacity=".16"/>
+  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-5.46s" repeatCount="indefinite"/>
+  <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#242938" rx="60"/><path fill="#E535AB" d="M47.8621 176.192L55.2041 180.431L136.997 38.7664L129.655 34.5274L47.8621 176.192Z"/><path fill="#E535AB" d="M209.766 164.875H46.1809V173.353H209.766V164.875Z"/><path fill="#E535AB" d="M49.4177 169.637L131.241 216.879L135.48 209.537L53.6567 162.295L49.4177 169.637Z"/><path fill="#E535AB" d="M120.498 46.5121L202.321 93.7542L206.56 86.4122L124.737 39.1701L120.498 46.5121Z"/><path fill="#E535AB" d="M49.4404 86.3797L53.6794 93.7217L135.503 46.4796L131.264 39.1376L49.4404 86.3797Z"/><path fill="#E535AB" d="M119.02 38.7675L200.812 180.432L208.154 176.193L126.362 34.5285L119.02 38.7675Z"/><path fill="#E535AB" d="M61.145 80.7577H52.667V175.242H61.145V80.7577Z"/><path fill="#E535AB" d="M203.331 80.7577H194.853V175.242H203.331V80.7577Z"/><path fill="#E535AB" d="M126.095 206.877L129.798 213.291L200.962 172.203L197.259 165.79L126.095 206.877Z"/><path fill="#E535AB" d="M214.567 178C209.664 186.529 198.734 189.44 190.205 184.537C181.676 179.634 178.765 168.705 183.668 160.176C188.571 151.646 199.501 148.735 208.03 153.638C216.61 158.592 219.521 169.471 214.567 178Z"/><path fill="#E535AB" d="M72.2789 95.8244C67.3759 104.353 56.4464 107.265 47.9173 102.362C39.3882 97.4587 36.4771 86.5292 41.38 78.0001C46.283 69.4709 57.2125 66.5598 65.7416 71.4628C74.2707 76.4168 77.1819 87.2953 72.2789 95.8244Z"/><path fill="#E535AB" d="M41.431 178C36.5281 169.471 39.4392 158.592 47.9683 153.638C56.4974 148.735 67.3759 151.646 72.3299 160.176C77.2329 168.705 74.3217 179.583 65.7926 184.537C57.2124 189.44 46.334 186.529 41.431 178Z"/><path fill="#E535AB" d="M183.719 95.8244C178.816 87.2953 181.727 76.4168 190.256 71.4628C198.786 66.5598 209.664 69.4709 214.618 78.0001C219.521 86.5292 216.61 97.4076 208.081 102.362C199.552 107.265 188.622 104.353 183.719 95.8244Z"/><path fill="#E535AB" d="M127.999 228C118.142 228 110.175 220.033 110.175 210.176C110.175 200.319 118.142 192.351 127.999 192.351C137.856 192.351 145.823 200.319 145.823 210.176C145.823 219.982 137.856 228 127.999 228Z"/><path fill="#E535AB" d="M127.999 63.6486C118.142 63.6486 110.175 55.6813 110.175 45.8243C110.175 35.9673 118.142 28 127.999 28C137.856 28 145.823 35.9673 145.823 45.8243C145.823 55.6813 137.856 63.6486 127.999 63.6486Z"/></svg>
+
+  <g clip-path="url(#trim)">
+    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
+      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-5.46s" repeatCount="indefinite"/>
+    </path>
+  </g>
 </g>
-<g transform="translate(32 30)">
- <g>
-  <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 1.35;0 -1.9;0 1.35" keyTimes="0;.5;1" dur="3.37s" begin="-3.57s" repeatCount="indefinite"/>
-  <path d="M0 -19L17 10 " fill="none" stroke="#ff89d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M17 -9L0 20 " fill="none" stroke="#ff89d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M17 10L-17 10 " fill="none" stroke="#ff89d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M0 20L-17 -9 " fill="none" stroke="#ff89d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M-17 10L0 -19 " fill="none" stroke="#ff89d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M-17 -9L17 -9 " fill="none" stroke="#ff89d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /><circle cx="0" cy="-19" r="3.2" fill="#F9FBFF" /><circle cx="17" cy="-9" r="3.2" fill="#F9FBFF" /><circle cx="17" cy="10" r="3.2" fill="#F9FBFF" /><circle cx="0" cy="20" r="3.2" fill="#F9FBFF" /><circle cx="-17" cy="10" r="3.2" fill="#F9FBFF" /><circle cx="-17" cy="-9" r="3.2" fill="#F9FBFF" />
- </g>
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-5.46s" repeatCount="indefinite"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#F45CC2" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
+  <circle cx="62" cy="32" r="1.6" fill="#F45CC2"/>
 </g>
-<circle cx="13" cy="51" r="1.2" fill="#EE51B7" opacity=".4"><animate attributeName="opacity" values=".22;.8;.22" dur="2.20s" begin="-3.57s" repeatCount="indefinite"/></circle>
-<circle cx="52" cy="11" r=".9" fill="#FFFFFF" opacity=".24"><animate attributeName="opacity" values=".12;.7;.12" dur="2.73s" begin="-3.57s" repeatCount="indefinite"/></circle>
 </svg>
