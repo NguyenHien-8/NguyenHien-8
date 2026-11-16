@@ -25,7 +25,7 @@ input:focus-visible,select:focus-visible{outline:2px solid #8dcaff;outline-offse
 .card:before{content:"";position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,#9bdcff70,transparent);opacity:0;transition:opacity .25s}
 .card:hover:before,.card:focus-within:before{opacity:1}
 .icon-wrap{margin-bottom:17px;width:82px;height:82px;display:grid;place-items:center;border-radius:16px;background:#090f1d7a;border:1px solid #314663;overflow:visible}
-object{width:var(--logo-size,64px);height:var(--logo-size,64px);display:block;outline-offset:4px;pointer-events:none}
+object{width:var(--logo-size,64px);height:var(--logo-size,64px);display:block;outline-offset:4px;pointer-events:none;background:#101a29}
 .card:focus-visible{outline:2px solid #b8dcff;outline-offset:3px}
 .name{font-size:17px;line-height:1.2;letter-spacing:-.02em;font-weight:700;margin:0 0 6px}
 .details{color:#a4b6cb;font-size:12px;line-height:1.4;flex:1;margin:0 0 17px}
@@ -68,6 +68,7 @@ const cards=specs.map(([id,name,category,details])=>{
   // keyboard-focusable card, whose state is forwarded to its SVG document.
   function setState(active,pressed=false){
     try{const root=icon.contentDocument?.documentElement;
+      if(root) root.style.backgroundColor="#101a29";
       root?.classList.toggle("is-interactive",active);
       root?.classList.toggle("is-active",pressed);
     }catch(_){/* Fallback image remains readable if embedded document is restricted. */}
