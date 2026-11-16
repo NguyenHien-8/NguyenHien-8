@@ -14,8 +14,6 @@ My experience includes:
 
 ### Technologies &amp; Tools
 
-<p align="center"><sub>Authentic tech logos, enhanced with subtle motion · locally hosted SVG · no external animation service</sub></p>
-
 <br/>
 <div style="display: flex; align-items: flex-start; justify-content: center">
 <table align="center">
@@ -144,5 +142,4 @@ My experience includes:
   </tr>
 </table>
 
-<p align="center"><sub>Logo artwork from <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> (MIT). Custom motion effects added locally.</sub></p>
 </div>
