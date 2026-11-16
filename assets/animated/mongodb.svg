@@ -1,33 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">MongoDB — animated technology icon</title>
-<desc id="desc">Self-contained animated vector icon, gently floating with a rotating illuminated orbit.</desc>
+<title id="title">MongoDB — animated original logo</title>
+<desc id="desc">Original Skill Icons artwork with subtle light sweep, floating motion and glowing accent dots.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#252D40"/><stop offset=".54" stop-color="#171E2C"/><stop offset="1" stop-color="#111725"/></linearGradient>
- <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#32C77E" stop-opacity=".6"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#32C77E" stop-opacity=".22"/></linearGradient>
- <radialGradient id="halo"><stop offset="0" stop-color="#32C77E" stop-opacity=".26"/><stop offset="1" stop-color="#32C77E" stop-opacity="0"/></radialGradient>
- <clipPath id="clip"><rect x="2" y="2" width="60" height="60" rx="15"/></clipPath>
+  <radialGradient id="aura"><stop stop-color="#3FD78E" stop-opacity=".34"/><stop offset="1" stop-color="#3FD78E" stop-opacity="0"/></radialGradient>
+  <clipPath id="trim"><rect x="4" y="4" width="56" height="56" rx="13"/></clipPath>
 </defs>
-<rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
-<g clip-path="url(#clip)">
- <circle cx="47" cy="47" r="35" fill="url(#halo)">
-   <animate attributeName="opacity" values=".66;1;.66" dur="3.00s" begin="-3.40s" repeatCount="indefinite"/>
- </circle>
- <path d="M6 24Q6 6 24 6H48" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
-</g>
-<rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
-<circle cx="32" cy="30" r="24.7" fill="none" stroke="#32C77E" stroke-opacity=".09" stroke-width=".9"/>
+<circle cx="32" cy="32" r="31" fill="url(#aura)">
+  <animate attributeName="opacity" values=".45;.95;.45" dur="4.20s" begin="-5.20s" repeatCount="indefinite"/>
+</circle>
 <g>
- <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 32 30" to="360 32 30" dur="8.60s" begin="-3.40s" repeatCount="indefinite"/>
- <circle cx="32" cy="30" r="24.7" fill="none" stroke="#32C77E" stroke-opacity=".64" stroke-width="1.55" stroke-dasharray="14 141"/>
- <circle cx="56.7" cy="30" r="2.3" fill="#32C77E"/>
- <circle cx="56.7" cy="30" r="4.9" fill="#32C77E" opacity=".16"/>
+  <animateTransform attributeName="transform" type="translate" values="0 0.8;0 -1.15;0 0.8" dur="4.20s" begin="-5.20s" repeatCount="indefinite"/>
+  <svg xmlns="http://www.w3.org/2000/svg" x="4" width="56" y="4" height="56" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#023430" rx="60"/><path fill="#10AA50" d="M171.173 107.591C160.636 61.1097 138.676 48.7357 133.074 39.9886C130.764 36.1353 128.717 32.1299 126.949 28C126.653 32.1292 126.109 34.7307 122.599 37.862C115.552 44.1454 85.6217 68.5354 83.1028 121.348C80.756 170.59 119.303 200.953 124.395 204.092C128.311 206.019 133.08 204.133 135.407 202.364C153.988 189.612 179.376 155.614 171.193 107.591"/><path fill="#B8C4C2" d="M128.545 177.871C127.575 190.059 126.88 197.141 124.416 204.106C124.416 204.106 126.033 215.709 127.169 228H131.188C132.147 219.345 133.61 210.753 135.572 202.268C130.369 199.708 128.745 188.566 128.545 177.871Z"/><path fill="#12924F" d="M135.565 202.275C130.307 199.846 128.786 188.469 128.552 177.871C129.852 160.388 130.231 142.849 129.688 125.326C129.412 116.132 129.818 40.1676 127.423 29.0461C129.062 32.8129 130.949 36.4662 133.074 39.9818C138.676 48.7358 160.643 61.1097 171.173 107.591C179.376 155.532 154.126 189.44 135.565 202.275Z"/></svg>
+
+  <g clip-path="url(#trim)">
+    <path d="M-42 4H-18L9 60H-15Z" fill="#fff" opacity=".115">
+      <animateTransform attributeName="transform" type="translate" values="-25 0;120 0" dur="6.00s" begin="-5.20s" repeatCount="indefinite"/>
+    </path>
+  </g>
 </g>
-<g transform="translate(32 30)">
- <g>
-  <animateTransform attributeName="transform" attributeType="XML" type="translate" values="0 1.35;0 -1.9;0 1.35" keyTimes="0;.5;1" dur="3.00s" begin="-3.40s" repeatCount="indefinite"/>
-  <path d="M0-21C-12-10-15 2-10 12Q-7 19 0 22Q9 14 11 3Q11-7 0-21Z" fill="#22B975" /><path d="M0-17Q-1 2 0 19" fill="none" stroke="#BDF9D4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
- </g>
+<g>
+  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="10.0s" begin="-5.20s" repeatCount="indefinite"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#3FD78E" stroke-opacity=".33" stroke-width="1.2" stroke-dasharray="11 177"/>
+  <circle cx="62" cy="32" r="1.6" fill="#3FD78E"/>
 </g>
-<circle cx="13" cy="51" r="1.2" fill="#32C77E" opacity=".4"><animate attributeName="opacity" values=".22;.8;.22" dur="3.10s" begin="-3.40s" repeatCount="indefinite"/></circle>
-<circle cx="52" cy="11" r=".9" fill="#FFFFFF" opacity=".24"><animate attributeName="opacity" values=".12;.7;.12" dur="2.52s" begin="-3.40s" repeatCount="indefinite"/></circle>
 </svg>
